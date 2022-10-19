@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/674fc4d8f3ca6f56c77c1b0c9d51d693/jetified-play-services-vision-common-19.1.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5fa4deb8dd5986ba2b7f5bbb7b2770d6/transformed/jetified-play-services-vision-common-19.1.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57e339dd197edd23f266b4046b7a0421/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/57e339dd197edd23f266b4046b7a0421/transformed/jetified-play-services-vision-common-19.1.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/57e339dd197edd23f266b4046b7a0421/transformed/jetified-play-services-vision-common-19.1.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f3f5b94ae011befc264c8f5b07717110/transformed/jetified-play-services-vision-common-19.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f3f5b94ae011befc264c8f5b07717110/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f3f5b94ae011befc264c8f5b07717110/transformed/jetified-play-services-vision-common-19.1.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-vision-common/19.1.2/c78078339d649dcd66d2d5948b64201f8b42d83e/play-services-vision-common-19.1.2-javadoc.jar!/" />

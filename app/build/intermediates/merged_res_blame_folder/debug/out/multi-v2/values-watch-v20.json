@@ -4,7 +4,7 @@
             "outputFile": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\a21718cb0efcd0b4e87c80c23cbc00e4\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\c39c2808567d6f44c88241b96430877b\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

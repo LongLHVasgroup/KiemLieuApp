@@ -4,7 +4,7 @@
             "outputFile": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\959004b6f02dc25f16bd8f28532361db\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\95dbf3d5860c92dc6eff9d177f08ee17\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

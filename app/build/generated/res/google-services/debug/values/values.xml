@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">179194993023-tl6f379ummgv061m67kih6e3j8ivcrdp.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">179194993023</string>
-    <string name="google_api_key" translatable="false">AIzaSyANT9MUkMW1T0CcGFMIbrF3vib4hFCvfh0</string>
-    <string name="google_app_id" translatable="false">1:179194993023:android:de130991cf231453f7624a</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANT9MUkMW1T0CcGFMIbrF3vib4hFCvfh0</string>
-    <string name="google_storage_bucket" translatable="false">edelivery-app-d5b7a.appspot.com</string>
-    <string name="project_id" translatable="false">edelivery-app-d5b7a</string>
+    <string name="default_web_client_id" translatable="false">656024161326-sa7cheml73cnrajrnr8l36of8sgqmdpv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">656024161326</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5sxJdZtJUAZRsG7u8LQxOC6SoF8L9eJM</string>
+    <string name="google_app_id" translatable="false">1:656024161326:android:368a7bfa08faa01b3763bf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5sxJdZtJUAZRsG7u8LQxOC6SoF8L9eJM</string>
+    <string name="google_storage_bucket" translatable="false">vas-client.appspot.com</string>
+    <string name="project_id" translatable="false">vas-client</string>
 </resources>

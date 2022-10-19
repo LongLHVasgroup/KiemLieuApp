@@ -2,7 +2,10 @@ package com.example.vasclientv2.ui.login;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.FileObserver;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.method.PasswordTransformationMethod;
@@ -43,6 +46,8 @@ import com.example.vasclientv2.ui.WareHouse;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
+import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -66,10 +71,42 @@ public class LoginActivity extends AppCompatActivity {
     // Copyright
     private TextView txtCopyright;
 
+    //Firebase
+    FirebaseRemoteConfig remoteConfig;
+
+    private android.app.AlertDialog dialogUpdateApp;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //check version
+        int currentVersionCode;
+
+        currentVersionCode = getCurrentVersionCode();
+
+        Log.i("Current Code", String.valueOf(currentVersionCode));
+
+        remoteConfig = FirebaseRemoteConfig.getInstance();
+        FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
+                .setMinimumFetchIntervalInSeconds(5)
+                .build();
+
+        remoteConfig.setConfigSettingsAsync(configSettings);
+        remoteConfig.fetchAndActivate().addOnCompleteListener(new OnCompleteListener<Boolean>() {
+            @Override
+            public void onComplete(@NonNull Task<Boolean> task) {
+                if(task.isSuccessful()){
+                    final String new_version_code = remoteConfig.getString("new_version_code");
+
+                    Log.e("FireBase",new_version_code);
+                    if(Integer.parseInt(new_version_code) > getCurrentVersionCode()){
+                        ShowUpdateDiaLog();
+                    }
+                }
+            }
+        });
+
 
         setContentView(R.layout.activity_login);
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())
@@ -310,6 +347,8 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+
+
     private void showUpdatePassword(UserModel success) {
         createDialogUpdatePassword(success);
         dialog.show();
@@ -437,5 +476,47 @@ public class LoginActivity extends AppCompatActivity {
 
         });
 
+    }
+
+
+    private void ShowUpdateDiaLog() {
+        // Dialog xác nhận lưu và gửi thông báo cho trưởng kiểm liệu
+        dialogUpdateApp = new android.app.AlertDialog.Builder(this)
+                .setTitle("Cập nhật ứng dụng")
+                .setMessage("Đã có phiên bản mới bạn có muốn cập nhật?")
+                .setPositiveButton("Đồng ý", (dialog, which) -> {
+                    Log.i("Cập nhật","Bắt đầu cập nhật");
+                    UpdateApp();
+                })
+                .setNegativeButton("Hủy", (dialog, which) -> {
+                    Log.e("Cập nhật","Hủy cập nhật");
+                })
+                .create();
+
+        dialogUpdateApp.show();
+    }
+
+    private boolean UpdateApp(){
+        try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/LongLHVasgroup/KiemLieuApp/raw/master/app/build/outputs/apk/debug/app-debug.apk")));
+            return true;
+        }catch (Exception ex){
+            Toast.makeText(getApplicationContext(), "Đã xảy ra lỗi!", Toast.LENGTH_LONG).show();
+            Log.e("Update App",ex.toString());
+            return false;
+        }
+
+    }
+
+    private int getCurrentVersionCode(){
+        PackageInfo packageInfo = null;
+
+        try {
+             packageInfo = getPackageManager().getPackageInfo(getPackageName(),0);
+        }catch (Exception ex){
+            Log.e("Version Code", ex.toString());
+        }
+
+        return packageInfo.versionCode;
     }
 }

@@ -4,7 +4,7 @@
             "outputFile": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\a21718cb0efcd0b4e87c80c23cbc00e4\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\c39c2808567d6f44c88241b96430877b\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\2b4724799832018f17ee0ca863722798\\transformed\\core-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\phatn\\.gradle\\caches\\transforms-3\\2191a2884e5af7e1ef6897f28a108dea\\transformed\\core-1.3.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

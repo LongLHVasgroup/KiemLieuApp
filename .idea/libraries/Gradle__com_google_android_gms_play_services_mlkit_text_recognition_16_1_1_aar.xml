@@ -4,8 +4,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09ab77b6cdc466cd5bf5fd4c48beccde/jetified-play-services-mlkit-text-recognition-16.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99b9bc04d8cfec484d85ddde7da08f80/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/126534a8f0a19c4861a157093045af79/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/126534a8f0a19c4861a157093045af79/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/126534a8f0a19c4861a157093045af79/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/43f2aec8934131da3a8c40ded32556aa/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/43f2aec8934131da3a8c40ded32556aa/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/43f2aec8934131da3a8c40ded32556aa/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-mlkit-text-recognition/16.1.1/eb672263e1a6c5a636a479f94bce5a5e1a12f7b5/play-services-mlkit-text-recognition-16.1.1-javadoc.jar!/" />

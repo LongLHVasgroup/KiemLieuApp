@@ -65,6 +65,7 @@ dependencies {
 dependencies {
 
 
+    implementation 'com.google.firebase:firebase-config:19.1.1'
     implementation 'com.google.android.gms:play-services-maps:17.0.1'
     implementation 'androidx.preference:preference:1.1.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
