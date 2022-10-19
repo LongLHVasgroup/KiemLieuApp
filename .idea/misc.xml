@@ -48,6 +48,9 @@
         <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/menu/activity_kiemlieu_drawer.xml" value="0.29743589743589743" />
         <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/menu/activity_main_drawer.xml" value="0.29743589743589743" />
         <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/menu/tkl_activity_main_drawer.xml" value="0.29743589743589743" />
+        <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/xml/admin_preferences.xml" value="0.1" />
+        <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/xml/provider_paths.xml" value="0.1" />
+        <entry key="..\:/VasClient/vas_clientv2/app/src/main/res/xml/user_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>

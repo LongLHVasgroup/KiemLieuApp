@@ -1,10 +1,14 @@
 package com.example.vasclientv2.ui.login;
 
 import android.app.Activity;
+import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.FileObserver;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -27,6 +31,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.FileProvider;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -48,6 +53,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
+
+import java.io.File;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -507,7 +514,8 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
-
+//    String filePath = "";
+//    String fileName = "app-debug.apk";
     private int getCurrentVersionCode(){
         PackageInfo packageInfo = null;
 
@@ -519,4 +527,39 @@ public class LoginActivity extends AppCompatActivity {
 
         return packageInfo.versionCode;
     }
+//
+//    private void downLoadFileFromUrl(String url) {
+//        getApplicationContext().getSystemService(Context.DOWNLOAD_SERVICE);
+//
+//        Uri uri = Uri.parse(url);
+//
+//        File oldFile = new File(filePath + fileName);
+//
+//        if(oldFile.exists()){
+//            openApkFile(filePath);
+//        }else{
+//            Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).mkdirs();
+//
+//            Uri dowloadLocation = Uri.fromFile(new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),fileName));
+//
+//            DownloadManager.re
+//        }
+//    }
+//
+//    private void openApkFile(String location) {
+//
+//        Intent intent = new Intent(Intent.ACTION_VIEW);
+//        intent.setDataAndType(getUriFromFile(location),"application/vnd.android.package-archive");
+//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+//        startActivity(intent);
+//    }
+//
+//    private Uri getUriFromFile(String location) {
+//        if(Build.VERSION.SDK_INT < 24){
+//            return Uri.fromFile(new File(location + fileName));
+//        }else {
+//            return FileProvider.getUriForFile(getApplicationContext(),getApplicationContext().getPackageName().toString() + ".provider", new File(location + fileName));
+//        }
+//    }
 }

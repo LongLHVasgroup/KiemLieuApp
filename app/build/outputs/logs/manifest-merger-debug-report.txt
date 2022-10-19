@@ -1,9 +1,20 @@
 -- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:180:9-188:20
+	android:grantUriPermissions
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:184:13-47
+	android:authorities
+		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:182:13-60
+	android:exported
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:183:13-37
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:181:13-62
 manifest
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\phatn\.gradle\caches\transforms-3\298019cce3297634bc6dc839a8c3281e\transformed\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\phatn\.gradle\caches\transforms-3\44d44a5bb29becb1dac1a3fe7c17bb56\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\phatn\.gradle\caches\transforms-3\4d4c04c23d44a503d16b23dc59e58ae0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -92,22 +103,22 @@ MERGED from [com.microsoft.appcenter:appcenter-crashes:4.0.0] C:\Users\phatn\.gr
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\phatn\.gradle\caches\transforms-3\e6d4c8f44a5a8716b8ad9ba2d7ddf14f\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\db1287f1de5ea3053d1ffb6e8bb609bb\transformed\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.microsoft.appcenter:appcenter:4.0.0] C:\Users\phatn\.gradle\caches\transforms-3\89d8127bf358b0ecfaf5e9e81770a08f\transformed\jetified-appcenter-4.0.0\AndroidManifest.xml:6:1-18:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
-INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
+INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
 	package
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-179:12
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:1-191:12
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:2:11-69
@@ -149,32 +160,36 @@ uses-permission#android.permission.VIBRATE
 ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:9:22-63
-uses-feature#android.hardware.nfc
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:11:5-13:35
-	android:required
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:13:9-32
-	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:12:9-44
-uses-feature#android.hardware.camera
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:14:5-16:35
-	android:required
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:16:9-32
-	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:15:9-47
-uses-feature#android.hardware.camera.autofocus
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:17:5-70
-	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:17:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:19:5-81
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:19:22-78
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:11:5-83
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:11:22-80
+uses-feature#android.hardware.nfc
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:13:5-15:35
+	android:required
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:15:9-32
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:14:9-44
+uses-feature#android.hardware.camera
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:17:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:19:19-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:20:5-80
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:20:22-77
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:22:22-77
 application
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:22:5-177:19
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:24:5-189:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\phatn\.gradle\caches\transforms-3\44d44a5bb29becb1dac1a3fe7c17bb56\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\phatn\.gradle\caches\transforms-3\44d44a5bb29becb1dac1a3fe7c17bb56\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\phatn\.gradle\caches\transforms-3\4d4c04c23d44a503d16b23dc59e58ae0\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -246,279 +261,279 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ph
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\phatn\.gradle\caches\transforms-3\2191a2884e5af7e1ef6897f28a108dea\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:28:9-35
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:26:9-41
 	android:roundIcon
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:25:9-48
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:27:9-48
 	tools:targetApi
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:29:9-28
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:31:9-28
 	android:icon
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:25:9-43
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:27:9-47
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:29:9-47
 	android:usesCleartextTraffic
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:28:9-44
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:30:9-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:42:9-44:44
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:44:9-46:44
 	android:value
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:44:13-41
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:46:13-41
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:43:13-58
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:45:13-58
 activity#com.example.vasclientv2.truongkiemlieu.DestroyPhieuKLActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:46:9-50:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:48:9-52:60
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:49:13-59
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:51:13-59
 	android:exported
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:50:13-36
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:50:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:52:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:47:13-66
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:49:13-66
 activity#com.example.vasclientv2.baove.tagmanager.reactivetag.ReactiveTagLostActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:51:9-55:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:53:9-57:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:56:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:53:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:55:13-63
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:55:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:57:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:52:13-81
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:54:13-81
 activity#com.example.vasclientv2.baove.vehiclein.newvehicle.AddNewVehicleActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:56:9-86
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:9-86
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:56:19-83
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:19-83
 activity#com.example.vasclientv2.baove.tagmanager.taginfo.ScanTagActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:57:9-61:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:59:9-63:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:62:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:59:13-59
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:61:13-59
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:61:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:63:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:13-69
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:60:13-69
 activity#com.example.vasclientv2.baove.tagmanager.taginfo.TagInfoActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:62:9-66:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:64:9-68:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:65:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:67:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:64:13-59
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:66:13-59
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:66:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:68:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:63:13-69
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:65:13-69
 activity#com.example.vasclientv2.baove.tagmanager.losttag.LostTagActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:67:9-71:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:69:9-73:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:70:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:72:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:69:13-59
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:71:13-59
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:71:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:73:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:68:13-69
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:70:13-69
 meta-data#com.google.mlkit.vision.DEPENDENCIES
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:73:9-75:35
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:75:9-77:35
 	android:value
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:75:13-32
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:77:13-32
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:74:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:76:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:76:9-78:71
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:78:9-80:71
 	android:value
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:78:13-68
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:80:13-68
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:77:13-89
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:79:13-89
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:79:9-81:37
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:81:9-83:37
 	android:value
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:81:13-34
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:83:13-34
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:80:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:82:13-64
 meta-data#firebase_analytics_collection_enabled
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:82:9-84:37
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:84:9-86:37
 	android:value
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:84:13-34
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:86:13-34
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:83:13-65
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:85:13-65
 activity#com.example.vasclientv2.admin.adminsetting.AdminSettingActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:86:9-90:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:88:9-92:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:89:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:91:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:88:13-60
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:90:13-60
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:90:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:92:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:87:13-68
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:89:13-68
 activity#com.example.vasclientv2.admin.createuser.CreateUserActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:91:9-95:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:93:9-97:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:94:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:96:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:93:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:95:13-63
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:95:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:97:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:92:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:94:13-64
 activity#com.example.vasclientv2.admin.resetpass.ResetPassUserActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:96:9-100:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:98:9-102:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:99:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:101:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:98:13-66
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:100:13-66
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:100:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:102:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:97:13-66
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:99:13-66
 activity#com.example.vasclientv2.admin.AdminActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:101:9-105:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:103:9-107:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:104:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:106:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:103:13-67
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:105:13-67
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:105:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:107:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:102:13-48
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:104:13-48
 activity#com.example.vasclientv2.setting.SettingsActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:106:9-110:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:108:9-112:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:109:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:111:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:108:13-60
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:110:13-60
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:110:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:112:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:107:13-53
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:109:13-53
 activity#com.example.vasclientv2.userconfig.ChangePasswordActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:111:9-115:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:113:9-117:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:114:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:116:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:113:13-52
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:115:13-52
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:115:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:117:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:112:13-62
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:114:13-62
 activity#com.example.vasclientv2.baove.vehiclein.ScanBsxActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:116:9-120:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:118:9-122:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:119:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:121:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:118:13-45
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:120:13-45
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:120:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:122:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:117:13-60
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:119:13-60
 activity#com.example.vasclientv2.truongkiemlieu.TruongKiemLieuConfirmActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:121:9-124:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:123:9-126:60
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:123:13-45
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:125:13-45
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:124:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:126:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:122:13-73
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:124:13-73
 activity#com.example.vasclientv2.truongkiemlieu.TruongKiemLieuActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:125:9-129:66
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:127:9-131:66
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:128:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:130:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:127:13-45
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:129:13-45
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:129:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:131:13-63
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:126:13-66
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:128:13-66
 activity#com.example.vasclientv2.baove.vehiclein.AddCheckingScrapActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:130:9-134:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:132:9-136:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:133:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:135:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:132:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:134:13-64
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:134:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:136:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:131:13-69
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:133:13-69
 activity#com.example.vasclientv2.baove.vehiclein.SaveVehicleActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:135:9-139:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:137:9-141:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:138:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:140:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:137:13-58
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:139:13-58
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:139:13-57
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:141:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:136:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:138:13-64
 activity#com.example.vasclientv2.kiemlieu.kiemlieu.AddInfoKLActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:140:9-144:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:142:9-146:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:145:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:142:13-57
-	android:theme
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:144:13-57
+	android:theme
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:146:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:141:13-64
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:143:13-64
 activity#com.example.vasclientv2.ui.login.LoginActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:145:9-149:60
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:147:9-151:60
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:148:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:150:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:147:13-57
-	android:theme
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:149:13-57
+	android:theme
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:151:13-57
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:146:13-51
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:148:13-51
 activity#com.example.vasclientv2.splash.SplashScreenActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:150:9-158:20
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:152:9-160:20
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:152:13-47
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:154:13-47
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:151:13-56
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:153:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:153:13-157:29
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:155:13-159:29
 action#android.intent.action.MAIN
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:154:17-69
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:17-69
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:154:25-66
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:17-77
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:17-77
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:27-74
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:27-74
 activity#com.example.vasclientv2.baove.BaoVeActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:159:9-163:66
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:161:9-165:66
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:162:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:164:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:161:13-45
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:163:13-45
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:163:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:165:13-63
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:160:13-48
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:162:13-48
 activity#com.example.vasclientv2.kiemlieu.KiemLieuActivity
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:164:9-168:66
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:166:9-170:66
 	android:screenOrientation
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:167:13-49
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:169:13-49
 	android:label
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:166:13-45
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:168:13-45
 	android:theme
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:168:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:170:13-63
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:165:13-54
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:167:13-54
 service#com.example.vasclientv2.message.MyFirebaseMessagingService
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:170:9-176:19
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:172:9-178:19
 	android:exported
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:172:13-37
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:174:13-37
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:171:13-63
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:173:13-63
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:173:13-175:29
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:175:13-177:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:174:17-78
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:17-78
 	android:name
-		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:174:25-75
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:25-75
 uses-sdk
 INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
@@ -709,6 +724,12 @@ INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
 		INJECTED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:185:13-187:58
+	android:resource
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:187:17-55
+	android:name
+		ADDED from E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:186:17-67
 service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
 ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:9:9-15:19

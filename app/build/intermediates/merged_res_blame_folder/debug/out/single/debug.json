@@ -472,6 +472,10 @@
         "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_avatar_foreground.png"
     },
     {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\xml_provider_paths.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_splash_background_night.xml.flat",
         "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\splash_background_night.xml"
     },
