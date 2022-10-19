@@ -1,0 +1,694 @@
+[
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_settings_activity.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_neumorphism_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\neumorphism_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape4.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape4.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_logout.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_kiemlieu.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\fragment_kiemlieu.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_vehicle_in.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_vehicle_in.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_pass_user.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_reset_pass_user.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_kl_rejected.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\item_kl_rejected.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_plate.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_plate.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_avatar.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_confirmation_number.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_confirmation_number.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_departure_board_24.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_departure_board_24.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_plate_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_plate_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_circle_outline_24.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scan_bsx.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_scan_bsx.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_logout.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape3.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape3.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_create_user.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_create_user.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_vas_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\vas_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logout.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_list_vehicle_in.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\fragment_list_vehicle_in.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bao_ve.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_bao_ve.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_plate.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_plate.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_item_delivery.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\spinner_item_delivery.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_plate_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_plate_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_btncircleshape.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\btncircleshape.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_confirm_lost_tag.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\dialog_confirm_lost_tag.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_change_pass.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_change_pass.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_scan_tag.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_scan_tag.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_kiemlieu_drawer.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\menu\\activity_kiemlieu_drawer.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\menu_tkl_activity_main_drawer.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\menu\\tkl_activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_nav_header_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_nav_header_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_notes.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_notes.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_receipt.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_receipt.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_settings.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_settings.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_vehicle_lost_tag_fragment.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\vehicle_lost_tag_fragment.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_avatar_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_avatar_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_plate_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_plate_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_dialog_update_pass.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\background_dialog_update_pass.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_kl_fragment_slideshow.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\kl_fragment_slideshow.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape6.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape6.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_mobile_friendly.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_mobile_friendly.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_vas_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\vas_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_avatar_foreground.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_avatar_foreground.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_user.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\item_user.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_kiemlieu_themthongtinkl.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_kiemlieu_themthongtinkl.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\xml_admin_preferences.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\xml\\admin_preferences.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_avatar.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_kl_app_bar_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\kl_app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_avatar.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_plate.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_plate.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_directions_car.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_directions_car.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_update_password.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\dialog_update_password.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_vattu.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\spinner_vattu.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_qr_code_scanner.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_qr_code_scanner.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_lost_tag.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_lost_tag.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_avatar_round.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_avatar_round.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_vehicle.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_add_vehicle.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_logo.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_logo.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_kl_fragment_rejected.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\kl_fragment_rejected.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_fragment_chuakl.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_fragment_chuakl.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_item_scale.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_item_scale.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_plate.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_plate.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_bike_scooter.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_bike_scooter.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_destroy_phieu_kl_activity.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_destroy_phieu_kl_activity.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_nfc_reader.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\icon_nfc_reader.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_avatar_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_avatar_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\xml_user_preferences.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\xml\\user_preferences.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_activity_confirm.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_activity_confirm.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tag_info.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_tag_info.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_avatar_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_avatar_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_insert_drive_file.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_insert_drive_file.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_kiemlieu.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\item_kiemlieu.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_app_bar_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_plate_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_plate_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_camera_field.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\camera_field.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_bg_camera.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\bg_camera.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plate_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_plate_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_kiem_lieu.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_kiem_lieu.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tag_manager_fragment.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tag_manager_fragment.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_avatar_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_avatar_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape7.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape7.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_plate.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_plate.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_vehicle_wait_fragment.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\vehicle_wait_fragment.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_item_statusthongbao.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\item_statusthongbao.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_splash_background_night.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\splash_background_night.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_confirm_button.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\confirm_button.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_buttonshape9.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\buttonshape9.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_avatar.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_logo.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_avatar_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_avatar_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_logout.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_avatar_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_avatar_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_avatar.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_avatar.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_plate_round.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_plate_round.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\navigation_kl_mobile_navigation.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\navigation\\kl_mobile_navigation.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_new_vehicle.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_add_new_vehicle.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_new_user.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_new_user.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape2.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape2.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_fragment_choduyet.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_fragment_choduyet.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_truongkiemlieu_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_truongkiemlieu_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_forever_24.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_delete_forever_24.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_credit_card.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_credit_card.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_lock_user.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_lock_user.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_logout.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_save_vehicle.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_save_vehicle.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_kl_nav_header_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\kl_nav_header_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_kl_content_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\kl_content_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_avatar_foreground.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_avatar_foreground.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reactive_tag_lost.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_reactive_tag_lost.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_vehicle_out.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\fragment_vehicle_out.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_vehicle_in.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\fragment_vehicle_in.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_account_circle.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_account_circle.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_layout_camera.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable-v24\\layout_camera.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_setting.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_setting.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_background.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape8.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape8.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_pending_actions.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_pending_actions.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_plate_round.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_plate_round.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\navigation_tkl_mobile_navigation.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\navigation\\tkl_mobile_navigation.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_change_password.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_domain_verification.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\ic_baseline_domain_verification.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_plate.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-mdpi\\ic_plate.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_phieu_kl_da_duyet_fragment.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\phieu_kl_da_duyet_fragment.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\drawable_buttonshape5.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\drawable\\buttonshape5.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_avatar.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-hdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_logout.png.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logout.png"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\layout_tkl_content_main.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\layout\\tkl_content_main.xml"
+    },
+    {
+        "merged": "E:\\VasClient\\vas_clientv2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\VasClient\\vas_clientv2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]
