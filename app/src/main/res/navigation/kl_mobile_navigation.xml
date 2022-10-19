@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kl_mobile_navigation"
+    app:startDestination="@+id/nav_scan_nfc_kl">
+
+    <fragment
+        android:id="@+id/nav_scan_nfc_kl"
+        android:name="com.example.vasclientv2.kiemlieu.kiemlieu.KiemLieuFragment"
+        android:label="@string/menu_kiemlieu"
+        tools:layout="@layout/fragment_kiemlieu" />
+
+    <fragment
+        android:id="@+id/nav_list_kl"
+        android:name="com.example.vasclientv2.kiemlieu.rejected.RejectedKLFragment"
+        android:label="@string/list_kl_chưa_duyet"
+        tools:layout="@layout/kl_fragment_rejected" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.vasclientv2.kiemlieu.slideshow.SlideshowKLFragment"-->
+<!--        android:label="@string/list_dang_kiem"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+    <fragment
+        android:id="@+id/nav_kl_da_duyet"
+        android:name="com.example.vasclientv2.truongkiemlieu.phieudakl.PhieuKlDaDuyetFragment"
+        android:label="@string/tkl_kiemlieu_da_duyet"
+        tools:layout="@layout/phieu_kl_da_duyet_fragment" />
+</navigation>

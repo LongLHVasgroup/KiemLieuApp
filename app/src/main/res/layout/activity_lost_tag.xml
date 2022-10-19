@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".baove.tagmanager.losttag.LostTagActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/vehicle_wait_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtGate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn cổng vào"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/vehicle_wait_toolbar" />
+
+    <Spinner
+        android:id="@+id/spnSelectGate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/neu_background"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/txtGate" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvVehicleWait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        tools:listitem="@layout/tkl_item_scale" />
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

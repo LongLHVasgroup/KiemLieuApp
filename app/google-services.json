@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179194993023",
+    "project_id": "edelivery-app-d5b7a",
+    "storage_bucket": "edelivery-app-d5b7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179194993023:android:de130991cf231453f7624a",
+        "android_client_info": {
+          "package_name": "com.example.vasclientv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179194993023-tl6f379ummgv061m67kih6e3j8ivcrdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANT9MUkMW1T0CcGFMIbrF3vib4hFCvfh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179194993023-tl6f379ummgv061m67kih6e3j8ivcrdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

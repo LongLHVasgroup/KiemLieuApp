@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/tkl_nav_gallery">
+
+    <fragment
+        android:id="@+id/tkl_nav_home"
+        android:name="com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment"
+        android:label="@string/tkl_cho_kiemlieu"
+        tools:layout="@layout/tkl_fragment_chuakl" />
+
+    <fragment
+        android:id="@+id/tkl_nav_gallery"
+        android:name="com.example.vasclientv2.truongkiemlieu.klchoduyet.PhieuCanChoDuyetFragment"
+        android:label="@string/tkl_cho_duyet"
+        tools:layout="@layout/tkl_fragment_choduyet" />
+
+
+    <fragment
+        android:id="@+id/tkl_nav_kl_da_duyet"
+        android:name="com.example.vasclientv2.truongkiemlieu.phieudakl.PhieuKlDaDuyetFragment"
+        android:label="@string/tkl_kiemlieu_da_duyet"
+        tools:layout="@layout/phieu_kl_da_duyet_fragment" />
+
+</navigation>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".baove.tagmanager.taginfo.TagInfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tag_info_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txtTagNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:text="Số thẻ"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edtTagNumber"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape3"
+                android:hint="0001"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/txtTagType"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:text="Loại thẻ"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/ragSelectType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/buttonshape3"
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radGiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GIAO"
+                    android:checked="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="0"/>
+                <RadioButton
+                    android:id="@+id/radNhan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:text="NHẬN"
+                    android:layout_weight="0"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:text="Nơi sử dụng"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edtLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape3"
+                android:inputType="textCapCharacters"
+                android:layout_marginBottom="12dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/txtCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="12dp"
+                android:text="Thuộc Công ty"
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spnCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape3" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buttonshape"
+                android:text="Lưu"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

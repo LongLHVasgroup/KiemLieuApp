@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vehicle_in"
+            android:icon="@drawable/ic_vehicle_in"
+            android:title="@string/menu_vehicle_in" />
+        <item
+            android:id="@+id/nav_vehicle_out"
+            android:icon="@drawable/ic_baseline_directions_car"
+            android:title="@string/menu_vehicle_out" />
+        <item
+            android:id="@+id/nav_vehicle_wait"
+            android:icon="@drawable/ic_baseline_bike_scooter"
+            android:title="@string/vehicle_wait" />
+        <item
+            android:id="@+id/nav_vehicle_lost_tag"
+            android:icon="@drawable/ic_baseline_departure_board_24"
+            android:title="@string/vehicle_lost_tag" />
+
+        <item
+            android:id="@+id/nav_remove_vehicle"
+            android:icon="@drawable/ic_baseline_delete_forever_24"
+            android:title="@string/menu_vehicle_remove" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_tag_manager"-->
+<!--            android:icon="@drawable/ic_baseline_credit_card"-->
+<!--            android:title="@string/tag_manager" />-->
+    </group>
+</menu>

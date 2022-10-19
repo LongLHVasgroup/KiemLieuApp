@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".baove.tagmanager.TagManagerFragment">
+
+
+    <Button
+        android:id="@+id/btnLostTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="Báo Mất thẻ"
+        android:layout_marginBottom="10dp" />
+    <Button
+        android:id="@+id/btnReActiveTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Kích hoạt lại thẻ bị mất"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnTagRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Khai báo thông tin thẻ"/>
+
+</LinearLayout>

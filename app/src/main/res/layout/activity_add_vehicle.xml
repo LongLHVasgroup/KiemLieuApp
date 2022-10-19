@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_vehicle_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+            <LinearLayout
+                android:id="@+id/Parent_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_weight="2"-->
+                <!--                    android:textColor="?myTextViewColor"-->
+                <!--                    android:text="@string/platenumber"-->
+                <!--                    android:layout_marginStart="5dp"-->
+                <!--                    android:padding="5dp"/>-->
+                <TextView
+                    android:id="@+id/edtPlateNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Parent_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Parent_1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:text="@string/vehicle"
+                    android:textColor="?myTextViewColor" />
+
+                <TextView
+                    android:id="@+id/edtTypeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/lbl_Romooc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Parent_2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/romoocNumber"
+                android:textColor="?myTextViewColor" />
+            <!--Nhập số Romooc-->
+            <TextView
+                android:id="@+id/tv_Romooc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lbl_Romooc"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <!--Hiện text khi có khai báo duy nhất 1 Romooc-->
+            <TextView
+                android:id="@+id/txtProvider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_Romooc"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Nhà cung cấp"
+                android:textColor="?myTextViewColor" />
+
+            <TextView
+                android:id="@+id/txtProviderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProvider"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:textColor="?myTextViewColor" />
+
+
+            <TextView
+                android:id="@+id/txtVehicleOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Parent_2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Nhà cung cấp"
+                android:textColor="?myTextViewColor"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/spnVehicleOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtVehicleOwner"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/tv_NameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProviderName"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/namedriver"
+                android:textColor="?myTextViewColor" />
+
+            <EditText
+                android:id="@+id/edt_NameDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_NameDriver"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:inputType="textCapWords"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@null"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_IdentityCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_NameDriver"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/identitycard"
+                android:textColor="?myTextViewColor" />
+
+            <EditText
+                android:id="@+id/edt_IdentityCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_IdentityCard"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:inputType="text"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@null"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_Delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_IdentityCard"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/delivery_received"
+                android:textColor="?myTextViewColor" />
+
+            <Spinner
+                android:id="@+id/edt_Delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_Delivery"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_provider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_Delivery"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/select_provirder"
+                android:textColor="?myTextViewColor"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/edt_provider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_provider"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_Port"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_provider"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/in_port"
+                android:textColor="?myTextViewColor" />
+
+            <Spinner
+                android:id="@+id/edt_Port"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Port"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_Port"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/note"
+                android:textColor="?myTextViewColor" />
+
+            <EditText
+                android:id="@+id/edt_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Note"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/buttonshape5"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:minHeight="150dp"
+                android:padding="10dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnReadNFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_Note"
+                android:layout_margin="14dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="@string/scanRFID"
+                android:textColor="@color/white"
+                android:textColorHint="@null" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/myseft">
+
+        <Preference
+            android:key="CHANGE_PASS"
+            android:summary=""
+            app:icon="@drawable/ic_change_pass"
+            android:title="@string/change_password"/>
+
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory app:title="@string/system_header">-->
+
+<!--        <ListPreference-->
+<!--            app:defaultValue="kg_or_percent"-->
+<!--            app:entries="@array/type_tru_entries"-->
+<!--            app:entryValues="@array/type_tru_values"-->
+<!--            app:key="TYPE_TRU"-->
+<!--            app:title="@string/tru_tapchat_title"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
+
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>

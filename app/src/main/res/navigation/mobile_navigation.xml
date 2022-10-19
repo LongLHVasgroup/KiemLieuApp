@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_vehicle_in">
+
+    <fragment
+        android:tag="frag_vehicle_in"
+        android:id="@+id/nav_vehicle_in"
+        android:name="com.example.vasclientv2.baove.vehiclein.VehicleInFragment"
+        android:label="@string/menu_vehicle_in"
+        tools:layout="@layout/fragment_vehicle_in" />
+
+    <fragment
+        android:tag="frag_vehicle_out"
+        android:id="@+id/nav_vehicle_out"
+        android:name="com.example.vasclientv2.baove.vehicleout.VehicleOutFragment"
+        android:label="@string/menu_vehicle_out"
+        tools:layout="@layout/fragment_vehicle_out" />
+
+    <fragment
+        android:tag="frag_vehicle_wait"
+        android:id="@+id/nav_vehicle_wait"
+        android:name="com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment"
+        android:label="@string/vehicle_wait"
+        tools:layout="@layout/vehicle_wait_fragment" />
+    <fragment
+        android:tag="frag_vehicle_lost_tag"
+        android:id="@+id/nav_vehicle_lost_tag"
+        android:name="com.example.vasclientv2.baove.vehiclelosttag.VehicleLostTagFragment"
+        android:label="@string/vehicle_lost_tag"
+        tools:layout="@layout/vehicle_lost_tag_fragment" />
+<!--    <fragment-->
+<!--        android:tag="frag_tag_manager"-->
+<!--        android:id="@+id/nav_tag_manager"-->
+<!--        android:name="com.example.vasclientv2.baove.tagmanager.TagManagerFragment"-->
+<!--        android:label="@string/tag_manager"-->
+<!--        tools:layout="@layout/tag_manager_fragment" />-->
+</navigation>

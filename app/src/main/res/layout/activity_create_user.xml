@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.createuser.CreateUserActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/create_user_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên đăng nhập" />
+
+        <EditText
+            android:id="@+id/txt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên đăng nhập"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/txt_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập họ và tên"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vai trò người dùng"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/sp_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nhóm người dùng"-->
+<!--            android:layout_marginTop="20dp" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/sp_group_user"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tạo"
+            android:textColor="@color/white"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="50dp" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

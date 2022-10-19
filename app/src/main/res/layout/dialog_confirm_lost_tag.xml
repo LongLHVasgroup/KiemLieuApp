@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/ragLostType"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radLostOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Báo mất và Cho xe ra"/>
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/txtNotYetSelect"
+            android:layout_width="match_parent"
+            android:textColor="@color/textAlert"
+            android:layout_height="50dp"/>
+        <RadioButton
+            android:id="@+id/radLostContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Báo mất, xe tiếp tục cân"/>
+    </RadioGroup>
+
+</LinearLayout>

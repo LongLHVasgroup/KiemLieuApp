@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VasClient" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/underline_textfield</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="myTextViewColor">@color/black</item>
+        <item name="myEditTextColor">@color/black</item>
+<!--        màu gradient -->
+        <item name="startGradient">@color/gradient_start_light</item>
+        <item name="endGradient">@color/colorPrimaryVariant</item>
+        <item name="backgroundReferenceLine">@color/background_reference_line_light</item>
+<!--        end-->
+    </style>
+    <!-- Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryVariant">@color/neu_background</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!-- Login Screen theme. -->
+    <style name="Theme.VasClient.Basic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">#002C50</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/underline_textfield</item>
+        <item name="colorOnSecondary">#002C50</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="myTextViewColor">@color/black</item>
+        <item name="backgroundReferenceLine">@color/background_reference_line_light</item>
+
+    </style>
+
+    <style name="Theme.VasClient.Login" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/neu_background</item>
+        <item name="colorOnPrimary">#002C50</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/underline_textfield</item>
+        <item name="colorOnSecondary">#002C50</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="myTextViewColor">@color/black</item>
+        <item name="myEditTextColor">@color/black</item>
+
+
+    </style>
+
+    <style name="Theme.VasClient.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.VasClient.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.VasClient.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="spinnerTheme">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    // ProcessDialog
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    // Dashboard theme
+    <style name="Theme.VasClient.Dashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8bcdcd</item>
+        <item name="colorPrimaryVariant">#3797a4</item>
+        <item name="colorPrimaryDark">#753797A4</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="myTextViewColor">@color/black</item>
+
+        // No status bar
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+
+
+
+    </style>
+</resources>

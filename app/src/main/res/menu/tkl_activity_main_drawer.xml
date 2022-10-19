@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tkl_nav_gallery"
+            android:icon="@drawable/ic_baseline_domain_verification"
+            android:title="@string/tkl_cho_duyet" />
+        <item
+            android:id="@+id/tkl_nav_home"
+            android:icon="@drawable/ic_baseline_pending_actions"
+            android:title="@string/tkl_cho_kiemlieu" />
+        <item
+            android:id="@+id/tkl_nav_kl_da_duyet"
+            android:icon="@drawable/ic_baseline_mobile_friendly"
+            android:title="@string/tkl_kiemlieu_da_duyet" />
+
+    </group>
+</menu>

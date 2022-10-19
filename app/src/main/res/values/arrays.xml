@@ -1,0 +1,30 @@
+<resources>
+    <!-- Loai tru tap chat Preference -->
+    <string-array name="type_tru_entries">
+        <item>Chỉ trừ theo KG hoặc %</item>
+        <item>Trừ theo cả Kg và %</item>
+    </string-array>
+
+    <string-array name="type_tru_values">
+        <item>kg_or_percent</item>
+        <item>kg_and_percent</item>
+    </string-array>
+
+    <!-- Cho phép kiểm liệu duyệt phiếu hay không -->
+    <string-array name="type_user_approved">
+        <item>Cho phép kiểm liệu duyệt phiếu cân</item>
+        <item>Chỉ trưởng kiểm liệu được duyệt phiếu cân</item>
+    </string-array>
+
+    <string-array name="type_approved_values">
+        <item>allow_kl_confirm</item>
+        <item>only_tkl_confirm</item>
+    </string-array>
+
+
+<!--    Danh sách xe đặt biệt-->
+    <string-array name="list_of_vehical">
+        <item>BAGAC</item>
+        <item>XEMAY</item>
+    </string-array>
+</resources>

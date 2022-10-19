@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_info_kl_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView_KL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_info_kl_toolbar"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/contentLoaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:text="@string/platenumber"
+                    android:textColor="?myTextViewColor"
+                    android:textSize="@dimen/text_size_add_klinfo" />
+
+                <TextView
+                    android:id="@+id/edtPlateNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tv_LoaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contentLoaiXe"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:text="@string/vehicle"
+                    android:textColor="?myTextViewColor"
+                    android:textSize="@dimen/text_size_add_klinfo" />
+
+                <TextView
+                    android:id="@+id/edtTypeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center"
+                    android:textColorLink="@color/white"
+                    android:textSize="@dimen/text_size_add_klinfo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_gio_vao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_LoaiXe"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:text="@string/Inhout"
+                    android:textColor="?myTextViewColor"
+                    android:textSize="@dimen/text_size_add_klinfo" />
+
+                <TextView
+                    android:id="@+id/tv_GioVao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center"
+                    android:textColorLink="@color/white"
+                    android:textSize="@dimen/text_size_add_klinfo" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_gio_vao"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="@string/scaleticketcode"
+                android:textColor="?myTextViewColor"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_MaPhieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content1"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+
+            <RelativeLayout
+                android:id="@+id/tv_StatusThongBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_MaPhieu"
+                android:layout_margin="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/conTentList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lịch sử cập nhật: " />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listStatusThongBao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/conTentList"
+                    android:layout_marginTop="10dp"
+                    android:background="@null" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/contentTapChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_StatusThongBao"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/TapChat"
+                android:textColor="?myTextViewColor"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_TruKG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contentTapChat"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:text="@string/TruTapChatKG"
+                android:textColor="?myTextViewColor"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <EditText
+                android:id="@+id/edt_TruKG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_TruKG"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_TruPhanTram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_TruKG"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:text="@string/TruPhanTram"
+                android:textColor="?myTextViewColor"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <EditText
+                android:id="@+id/edt_TruPhanTram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_TruPhanTram"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_warehouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_TruPhanTram"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:text="@string/warehouse"
+                android:textColor="?myTextViewColor"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/warehouse"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_warehouse"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/tv_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/warehouse"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:text="@string/note"
+                android:textColor="?myTextViewColor"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <EditText
+                android:id="@+id/edt_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Note"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape5"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minHeight="150dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/contentPhanBo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_Note"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/PhanBo"
+                android:textColor="?myTextViewColor"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/btn_Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contentPhanBo"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rg_radionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rd_SaLan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/SaLan" />
+
+                    <RadioButton
+                        android:id="@+id/rd_2Cont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/Cont2" />
+
+                    <RadioButton
+                        android:id="@+id/rd_1Cont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/Cont1" />
+
+                    <RadioButton
+                        android:id="@+id/rd_XeThuong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/XeThuong" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/barge_number"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_Radio"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:hint="@string/barge_number"
+                android:inputType="textCapCharacters"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/so_hieu_cont_1"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/barge_number"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:hint="@string/cont_num_1"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/so_hieu_cont_2"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/so_hieu_cont_1"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:hint="@string/cont_num_2"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rd_Container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/so_hieu_cont_2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/rd_20feet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/cont_20ft" />
+
+                <RadioButton
+                    android:id="@+id/rd_40feet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/cont_40ft" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/contentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rd_Container"
+                android:layout_margin="10dp"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAddNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/buttonshape6"
+                    android:drawableLeft="@drawable/ic_baseline_add_circle_outline_24"
+                    android:padding="5dp"
+                    android:text="@string/ThemMoi"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ListVatTu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contentBtn"
+                tools:listitem="@layout/item_kiemlieu" />
+
+            <Button
+                android:id="@+id/btnSaveTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ListVatTu"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/success"
+                android:text="Lưu tạm"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSaveTemp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/success"
+                android:padding="15dp"
+                android:text="@string/Luu"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSwapWarehouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSave"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/warning"
+                android:padding="15dp"
+                android:text="@string/DoiKho"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSaveAsTKL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSaveTemp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/success"
+                android:padding="15dp"
+                android:text="@string/save_and_confirm"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/disableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <View
+            android:id="@+id/viewDisableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40000000"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/viewDisableLayout"
+            app:layout_constraintStart_toStartOf="@+id/viewDisableLayout"
+            app:layout_constraintTop_toTopOf="@+id/viewDisableLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="myTextViewColor" format="reference|color"/>
+    <attr name="myEditTextColor" format="reference|color"/>
+    <attr name="myHintTextColor" format="reference|color"/>
+    <attr name="startGradient" format="reference|color"/>
+    <attr name="endGradient" format="reference|color"/>
+    <attr name="backgroundReferenceLine" format="reference|color"/>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan_nfc_kl"
+            android:icon="@drawable/ic_baseline_insert_drive_file"
+            android:title="@string/menu_kiemlieu" />
+        <item
+            android:id="@+id/nav_list_kl"
+            android:icon="@drawable/ic_baseline_receipt"
+            android:title="@string/list_kl_chưa_duyet" />
+
+        <item
+            android:id="@+id/nav_kl_da_duyet"
+            android:icon="@drawable/ic_baseline_mobile_friendly"
+            android:title="@string/tkl_kiemlieu_da_duyet" />
+    </group>
+</menu>

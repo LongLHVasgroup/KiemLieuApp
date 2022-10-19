@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_tkl_confirm_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView_KL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_tkl_confirm_toolbar"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/contentLoaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:textSize="@dimen/text_size_add_klinfo"
+                    android:text="@string/platenumber"
+                    android:textColor="?myTextViewColor" />
+
+                <TextView
+                    android:id="@+id/edtPlateNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="35sp"
+                    android:layout_marginStart="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape3"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tv_LoaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/contentLoaiXe"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/text_size_add_klinfo"
+                    android:text="@string/vehicle"
+                    android:textColor="?myTextViewColor" />
+
+                <TextView
+                    android:id="@+id/edtTypeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_add_klinfo"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_gio_vao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_below="@+id/tv_LoaiXe"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:textSize="@dimen/text_size_add_klinfo"
+                    android:text="@string/Inhout"
+                    android:textColor="?myTextViewColor" />
+
+                <TextView
+                    android:id="@+id/tv_GioVao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/text_size_add_klinfo"
+                    android:background="@drawable/buttonshape3"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_gio_vao"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:text="@string/scaleticketcode"
+                android:textColor="?myTextViewColor" />
+
+            <TextView
+                android:id="@+id/tv_MaPhieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/content1"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center" />
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/tv_StatusThongBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_MaPhieu"
+                android:layout_margin="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/conTentList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lịch sử cập nhật: " />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listStatusThongBao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/conTentList"
+                    android:layout_marginTop="10dp"
+                    android:background="@null" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/contentTapChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_StatusThongBao"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/TapChat"
+                android:textColor="?myTextViewColor"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/tv_TruKG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contentTapChat"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:text="@string/TruTapChatKG"
+                android:textColor="?myTextViewColor" />
+
+            <TextView
+                android:id="@+id/edt_TruKG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_TruKG"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_TruPhanTram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_TruKG"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:text="@string/TruPhanTram"
+                android:textColor="?myTextViewColor" />
+
+            <TextView
+                android:id="@+id/edt_TruPhanTram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_TruPhanTram"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_KhoNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_TruPhanTram"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:text="@string/warehouse"
+                android:textColor="?myTextViewColor" />
+
+            <TextView
+                android:id="@+id/edt_KhoNhap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_KhoNhap"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_add_klinfo" />
+
+            <TextView
+                android:id="@+id/tv_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_KhoNhap"
+                android:layout_marginStart="5dp"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:text="@string/note"
+                android:textColor="?myTextViewColor" />
+
+            <EditText
+                android:id="@+id/edt_Note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Note"
+                android:layout_margin="5dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:padding="5dp"
+                android:background="@drawable/buttonshape5"
+                android:gravity="top"
+                android:minHeight="150dp"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/contentPhanBo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_Note"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:text="@string/PhanBo"
+                android:textColor="?myTextViewColor"
+                android:textSize="27sp" />
+
+            <LinearLayout
+                android:id="@+id/btn_Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contentPhanBo"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rg_radionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rd_SaLan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/SaLan" />
+
+                    <RadioButton
+                        android:id="@+id/rd_2Cont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/Cont2" />
+
+                    <RadioButton
+                        android:id="@+id/rd_1Cont"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/Cont1" />
+
+                    <RadioButton
+                        android:id="@+id/rd_XeThuong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="@string/XeThuong" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/barge_number"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_Radio"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:hint="@string/barge_number"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:maxLines="1"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/so_hieu_cont_1"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/barge_number"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:hint="@string/cont_num_1"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:maxLines="1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/so_hieu_cont_2"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/so_hieu_cont_1"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/text_size_add_klinfo"
+                android:background="@drawable/buttonshape3"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <RadioGroup
+                android:id="@+id/rd_Container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/so_hieu_cont_2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/rd_20feet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:clickable="false"
+                    android:layout_weight="1"
+                    android:text="@string/cont_20ft" />
+
+                <RadioButton
+                    android:id="@+id/rd_40feet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:clickable="false"
+                    android:layout_weight="1"
+                    android:text="@string/cont_40ft" />
+            </RadioGroup>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ListVatTu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rd_Container"
+                tools:listitem="@layout/item_kiemlieu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ListVatTu"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btnReject"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/tkl_reject"
+                    android:backgroundTint="@color/reject"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:layout_margin="5dp"
+                    android:text="@string/tkl_confirm"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/success"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/disableView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <View
+            android:id="@+id/viewDisableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40000000"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/viewDisableLayout"
+            app:layout_constraintEnd_toEndOf="@+id/viewDisableLayout"
+            app:layout_constraintStart_toStartOf="@+id/viewDisableLayout"
+            app:layout_constraintTop_toTopOf="@+id/viewDisableLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

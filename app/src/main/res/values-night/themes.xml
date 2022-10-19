@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VasClient" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_background</item>
+        <item name="colorPrimaryVariant">@color/dark_background</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">#002C50</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="myTextViewColor">@color/white</item>
+        <item name="myHintTextColor">@color/white</item>
+        <item name="startGradient">@color/gradient_start_night</item>
+        <item name="endGradient">@color/gradient_end_night</item>
+        <item name="backgroundReferenceLine">@color/background_reference_line_night</item>
+    </style>
+
+    <!-- Login Screen theme. -->
+    <style name="Theme.VasClient.Basic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_background</item>
+        <item name="colorPrimaryVariant">@color/dark_background</item>
+        <item name="colorOnPrimary">#002C50</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/underline_textfield</item>
+        <item name="colorOnSecondary">#002C50</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="myTextViewColor">@color/white</item>
+        <item name="myEditTextColor">@color/black</item>
+        <item name="backgroundReferenceLine">@color/background_reference_line_night</item>
+
+    </style>
+
+    <style name="Theme.VasClient.Login" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_background</item>
+        <item name="colorPrimaryVariant">@color/dark_background</item>
+        <item name="colorOnPrimary">#002C50</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/underline_textfield</item>
+        <item name="colorSecondaryVariant">@color/underline_textfield</item>
+        <item name="colorOnSecondary">#002C50</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="myTextViewColor">@color/white</item>
+        <item name="myEditTextColor">@color/black</item>
+
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryVariant">@color/neu_background</item>
+        <item name="android:windowBackground">@drawable/splash_background_night</item>
+    </style>
+
+    // Theme cho Spinner
+    <style name="spinnerTheme">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    // ProcessDialog
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    // Dashboard theme
+    <style name="Theme.VasClient.Dashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+
+        <item name="myTextViewColor">@color/white</item>
+
+    </style>
+</resources>

@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">eDelivery</string>
+    <string name="default_notification_channel_id">Vas Client Pro</string>
+    <string name="channel_description">Channel thông báo của ứng dụng Kiểm Liệu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Vas User</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_vehicle_remove">Áp xe khỏi bãi</string>
+    <string name="menu_vehicle_in">Xe Vào</string>
+    <string name="menu_vehicle_out">Xe Ra</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Tên đăng nhập</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="welcome">"Xin chào !"</string>
+    <string name="invalid_username">Không được bỏ trống!</string>
+    <string name="invalid_password">Mật khẩu phải lớn hơn 3 ký tự!</string>
+    <string name="login_failed">"Đăng nhập không thành công"</string>
+    <string name="config">"Cấu hình"</string>
+    <string name="ip">Ip</string>
+    <string name="menu_kiemlieu">Kiểm liệu</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="platenumber">Biển số xe</string>
+    <string name="vehicle">Loại xe</string>
+    <string name="namedriver">Tên tài xế</string>
+    <string name="identitycard">CMND/GPLX</string>
+    <string name="delivery_received">Giao/Nhận</string>
+    <string name="port">Cổng</string>
+    <string name="in_port">Cổng vào</string>
+    <string name="select_provirder">Nhà cung cấp</string>
+    <string name="note">Ghi chú</string>
+    <string name="scanRFID">Quét thẻ từ</string>
+    <string name="Logout">Đăng xuất</string>
+    <string name="ChosseDay">Chọn ngày</string>
+    <string name="Continue">Tiếp tục</string>
+    <string name="Config">Cấu hình</string>
+    <string name="error">Error</string>
+    <string name="reading_nfc">Áp thẻ từ vào mặt lưng của điện thoại</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="scaleticketcode">Mã phiếu cân</string>
+    <string name="Inhout">Giờ vào</string>
+    <string name="TapChat">Phần trừ tạp chất</string>
+    <string name="TruTapChatKG">Trừ Tạp Chất Theo KG</string>
+    <string name="TruPhanTram">Trừ Nước Theo %</string>
+    <string name="PhanBo">Phân bổ trọng lượng hàng</string>
+    <string name="SaLan">Sà lan</string>
+    <string name="Cont1">Xe 1 Cont</string>
+    <string name="Cont2">Xe 2 Cont</string>
+    <string name="XeThuong">Xe thường</string>
+    <string name="ThemMoi">Thêm mới</string>
+    <string name="Luu">Lưu</string>
+    <string name="DoiKho">Đổi kho</string>
+    <string name="save_and_confirm">Duyệt và lưu</string>
+    <string name="nfc_disabled">NFC trên máy bạn đã bị tắt, Vui lòng kích hoạt NFC.</string>
+    <string name="bao_ve">baove</string>
+    <string name="password">123</string>
+    <string name="not_found_vehicle">Không tìm thấy xe</string>
+    <string name="romoocNumber">Số Romooc</string>
+
+    <string name="tkl_menu_home">Xe chờ kiểm</string>
+    <string name="tkl_menu_gallery">Xe đã kiểm</string>
+    <string name="port_in">Cổng vào:</string>
+
+    <string name="bsx_is_empty">Vui lòng nhập đúng biển số xe!</string>
+    <string name="add_checking_scrap_activity">Nhập thông tin xe</string>
+    <string name="save_vehicle_activity">Lưu thông tin</string>
+    <string name="name_kiemlieu">Kiểm liệu viên: </string>
+    <string name="name_tkiemlieu">Trưởng kiểm liệu: </string>
+    <string name="add_info_kl_activity">Nhập thông tin kiểm liệu</string>
+    <string name="scan_by_camera">Quét Camera</string>
+    <string name="scan_bsx">Quét biển số xe</string>
+    <string name="biensoxe">Biển số xe</string>
+    <string name="rescan">Quét lại</string>
+    <string name="vehicle_wait">Xe Trong Bãi</string>
+    <string name="vehicle_lost_tag">Cho Xe Mất Thẻ Ra Ngoài</string>
+
+    <string name="barge_number">Số hiệu sà lan</string>
+    <string name="cont_num_1">Mã cont 1</string>
+    <string name="cont_num_2">Mã cont 2</string>
+    <string name="cont_20ft">Container 20 feet</string>
+    <string name="cont_40ft">Container 40 feet</string>
+    <string name="ma_phieu_can">Mã phiếu cân: </string>
+    <string name="list_kl_chưa_duyet">Danh sách KL chưa duyệt</string>
+    <string name="list_dang_kiem">Danh sách đang kiểm</string>
+    <string name="duyet_kl">Duyệt kiểm liệu</string>
+
+    <string name="tkl_confirm">DUYỆT</string>
+    <string name="tkl_reject">Từ chối</string>
+    <string name="tkl_destroy">Hủy phiếu</string>
+
+    <string name="fcm_token">FCM Token: %s</string>
+    <string name="tkl_cho_kiemlieu">Danh sách xe chờ KL</string>
+    <string name="tkl_cho_duyet">Phiếu kiểm liệu chờ duyệt</string>
+    <string name="tkl_kiemlieu_da_duyet">Phiếu kiểm liệu đã duyệt</string>
+
+    <string name="ipError">Không được bỏ trống địa chỉ server</string>
+    <string name="change_password">Thay đổi mật khẩu</string>
+
+    // Phần Change password
+    <string name="invalid_current_pass">Mật khẩu hiện tại không được để trống</string>
+    <string name="invalid_new_pass">Mật khẩu phải lớn hơn 3 ký tự</string>
+    <string name="invalid_repeat_pass">Mật khẩu không trùng khớp</string>
+    <!-- Settings Activity Titles -->
+    <string name="title_activity_settings">Cài đặt</string>
+
+    <!-- Preference Titles -->
+    <string name="myseft">Cá nhân</string>
+    <string name="system_header">Hệ thống</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="tru_tapchat_title">Cách trừ tạp chất</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="title_activity_reset_password">Đặt lại mật khẩu</string>
+    <string name="title_activity_admin_dashdoard">Quản trị viên</string>
+
+    <string name="fail_connect_server">Không lấy được thông tin từ máy chủ</string>
+    <string name="network_error">Không kết nối được tới máy chủ</string>
+
+
+    // Activity Create New User
+    <string name="title_activity_create_user">Tạo mới người dùng</string>
+    <string name="title_activity_config_tru_vat_tu">ConfigTruVatTuActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="reply_title">Default reply action</string>
+
+
+    <string name="setting">Cài đặt</string>
+
+    <string name="please_wait">Vui lòng chờ...</string>
+
+    <string name="quyen_duyet_kl">Quyền duyệt kiểm liệu</string>
+    <string name="tag_manager">Quản lý thẻ</string>
+
+    <string name="title_activity_scanTag">Quét thẻ khai báo thông tin</string>
+    <string name="title_activity_tagInfo">Thông tin thẻ</string>
+    <string name="title_activity_lostTag">Chọn xe cần báo mất</string>
+    <string name="title_activity_reactiveTag">Kích hoạt thẻ bị mất</string>
+    <string name="title_activity_destroy">Hủy phiếu kiểm liệu</string>
+
+    <string name="warehouse">Kho nhập</string>
+
+    <string name="copyright">vassteel.vn © v%s - VAS</string>
+    <string name="copyright_date">11/10/2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

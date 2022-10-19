@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vas_Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Vas_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vas_Client.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

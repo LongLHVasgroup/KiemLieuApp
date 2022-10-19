@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtStt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:textColor="?myTextViewColor"
+            android:text="1"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/txtStt"
+            android:text="90C-98383"
+            android:textColor="?myTextViewColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/namePort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPlate"
+            android:layout_toEndOf="@id/txtStt"
+            android:text="@string/port_in"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlate"
+            android:layout_toEndOf="@id/namePort"
+            android:paddingStart="10dp"
+            android:text=" Số Port"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/txtInHour"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:textSize="16sp"
+            android:text="InHour"
+            android:textColor="?myTextViewColor" />
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/txtPort"
+            android:layout_toEndOf="@id/txtStt"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
