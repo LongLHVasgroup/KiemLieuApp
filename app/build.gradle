@@ -9,7 +9,7 @@ android {
         applicationId "com.example.vasclientv2"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 2
+        versionCode 1
         versionName "1.2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

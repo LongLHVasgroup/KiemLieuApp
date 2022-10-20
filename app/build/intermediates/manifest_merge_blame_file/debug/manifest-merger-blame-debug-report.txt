@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.vasclientv2"
-4    android:versionCode="2"
+4    android:versionCode="1"
 5    android:versionName="1.2.0" >
 6
 7    <uses-sdk
@@ -96,523 +96,524 @@
 51-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:27:9-48
 52        android:supportsRtl="true"
 52-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:28:9-35
-53        android:theme="@style/Theme.VasClient"
-53-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:29:9-47
-54        android:usesCleartextTraffic="true" >
-54-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:30:9-44
-55
-56        <!--
-57             TODO: Before you run your application, you need a Google Maps API key.
-58
-59             To get one, follow the directions here:
-60
-61                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-62
-63             Once you have your API key (it starts with "AIza"), define a new property in your
-64             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-65             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-66        -->
-67        <meta-data
-67-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:44:9-46:44
-68            android:name="com.google.android.geo.API_KEY"
-68-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:45:13-58
-69            android:value="YOUR_API_KEY" />
-69-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:46:13-41
-70
-71        <activity
-71-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:48:9-52:60
-72            android:name="com.example.vasclientv2.truongkiemlieu.DestroyPhieuKLActivity"
-72-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:49:13-66
-73            android:exported="true"
-73-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:50:13-36
-74            android:label="@string/title_activity_destroy"
-74-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:51:13-59
-75            android:theme="@style/Theme.VasClient.Basic" />
-75-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:52:13-57
-76        <activity
-76-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:53:9-57:60
-77            android:name="com.example.vasclientv2.baove.tagmanager.reactivetag.ReactiveTagLostActivity"
-77-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:54:13-81
-78            android:label="@string/title_activity_reactiveTag"
-78-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:55:13-63
-79            android:screenOrientation="portrait"
-79-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:56:13-49
-80            android:theme="@style/Theme.VasClient.Basic" />
-80-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:57:13-57
-81        <activity android:name="com.example.vasclientv2.baove.vehiclein.newvehicle.AddNewVehicleActivity" />
-81-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:9-86
-81-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:19-83
-82        <activity
-82-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:59:9-63:60
-83            android:name="com.example.vasclientv2.baove.tagmanager.taginfo.ScanTagActivity"
-83-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:60:13-69
-84            android:label="@string/title_activity_scanTag"
-84-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:61:13-59
-85            android:screenOrientation="portrait"
-85-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:62:13-49
-86            android:theme="@style/Theme.VasClient.Basic" />
-86-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:63:13-57
-87        <activity
-87-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:64:9-68:60
-88            android:name="com.example.vasclientv2.baove.tagmanager.taginfo.TagInfoActivity"
-88-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:65:13-69
-89            android:label="@string/title_activity_tagInfo"
-89-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:66:13-59
-90            android:screenOrientation="portrait"
-90-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:67:13-49
-91            android:theme="@style/Theme.VasClient.Basic" />
-91-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:68:13-57
-92        <activity
-92-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:69:9-73:60
-93            android:name="com.example.vasclientv2.baove.tagmanager.losttag.LostTagActivity"
-93-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:70:13-69
-94            android:label="@string/title_activity_lostTag"
-94-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:71:13-59
-95            android:screenOrientation="portrait"
-95-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:72:13-49
-96            android:theme="@style/Theme.VasClient.Basic" />
-96-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:73:13-57
-97
-98        <meta-data
-98-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:75:9-77:35
-99            android:name="com.google.mlkit.vision.DEPENDENCIES"
-99-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:76:13-64
-100            android:value="ocr" />
-100-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:77:13-32
-101        <meta-data
-101-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:78:9-80:71
-102            android:name="com.google.firebase.messaging.default_notification_channel_id"
-102-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:79:13-89
-103            android:value="@string/default_notification_channel_id" />
-103-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:80:13-68
-104        <meta-data
-104-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:81:9-83:37
-105            android:name="firebase_messaging_auto_init_enabled"
-105-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:82:13-64
-106            android:value="false" />
-106-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:83:13-34
-107        <meta-data
-107-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:84:9-86:37
-108            android:name="firebase_analytics_collection_enabled"
-108-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:85:13-65
-109            android:value="false" />
-109-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:86:13-34
-110
-111        <activity
-111-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:88:9-92:60
-112            android:name="com.example.vasclientv2.admin.adminsetting.AdminSettingActivity"
-112-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:89:13-68
-113            android:label="@string/title_activity_settings"
-113-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:90:13-60
-114            android:screenOrientation="portrait"
-114-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:91:13-49
-115            android:theme="@style/Theme.VasClient.Basic" />
-115-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:92:13-57
-116        <activity
-116-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:93:9-97:60
-117            android:name="com.example.vasclientv2.admin.createuser.CreateUserActivity"
-117-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:94:13-64
-118            android:label="@string/title_activity_create_user"
-118-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:95:13-63
-119            android:screenOrientation="portrait"
-119-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:96:13-49
-120            android:theme="@style/Theme.VasClient.Basic" />
-120-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:97:13-57
-121        <activity
-121-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:98:9-102:60
-122            android:name="com.example.vasclientv2.admin.resetpass.ResetPassUserActivity"
-122-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:99:13-66
-123            android:label="@string/title_activity_reset_password"
-123-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:100:13-66
-124            android:screenOrientation="portrait"
-124-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:101:13-49
-125            android:theme="@style/Theme.VasClient.Basic" />
-125-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:102:13-57
-126        <activity
-126-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:103:9-107:60
-127            android:name="com.example.vasclientv2.admin.AdminActivity"
-127-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:104:13-48
-128            android:label="@string/title_activity_admin_dashdoard"
-128-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:105:13-67
-129            android:screenOrientation="portrait"
-129-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:106:13-49
-130            android:theme="@style/Theme.VasClient.Basic" />
-130-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:107:13-57
-131        <activity
-131-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:108:9-112:60
-132            android:name="com.example.vasclientv2.setting.SettingsActivity"
-132-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:109:13-53
-133            android:label="@string/title_activity_settings"
-133-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:110:13-60
-134            android:screenOrientation="portrait"
-134-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:111:13-49
-135            android:theme="@style/Theme.VasClient.Basic" />
-135-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:112:13-57
-136        <activity
-136-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:113:9-117:60
-137            android:name="com.example.vasclientv2.userconfig.ChangePasswordActivity"
-137-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:114:13-62
-138            android:label="@string/change_password"
-138-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:115:13-52
-139            android:screenOrientation="portrait"
-139-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:116:13-49
-140            android:theme="@style/Theme.VasClient.Basic" />
-140-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:117:13-57
-141        <activity
-141-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:118:9-122:60
-142            android:name="com.example.vasclientv2.baove.vehiclein.ScanBsxActivity"
-142-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:119:13-60
-143            android:label="@string/scan_bsx"
-143-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:120:13-45
-144            android:screenOrientation="portrait"
-144-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:121:13-49
-145            android:theme="@style/Theme.VasClient.Basic" />
-145-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:122:13-57
-146        <activity
-146-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:123:9-126:60
-147            android:name="com.example.vasclientv2.truongkiemlieu.TruongKiemLieuConfirmActivity"
-147-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:124:13-73
-148            android:label="@string/duyet_kl"
-148-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:125:13-45
-149            android:theme="@style/Theme.VasClient.Basic" />
-149-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:126:13-57
-150        <activity
-150-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:127:9-131:66
-151            android:name="com.example.vasclientv2.truongkiemlieu.TruongKiemLieuActivity"
-151-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:128:13-66
-152            android:label="@string/app_name"
-152-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:129:13-45
-153            android:screenOrientation="portrait"
-153-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:130:13-49
-154            android:theme="@style/Theme.VasClient.NoActionBar" />
-154-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:131:13-63
-155        <activity
-155-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:132:9-136:60
-156            android:name="com.example.vasclientv2.baove.vehiclein.AddCheckingScrapActivity"
-156-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:133:13-69
-157            android:label="@string/add_checking_scrap_activity"
-157-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:134:13-64
-158            android:screenOrientation="portrait"
-158-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:135:13-49
-159            android:theme="@style/Theme.VasClient.Basic" />
-159-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:136:13-57
-160        <activity
-160-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:137:9-141:60
-161            android:name="com.example.vasclientv2.baove.vehiclein.SaveVehicleActivity"
-161-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:138:13-64
-162            android:label="@string/save_vehicle_activity"
-162-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:139:13-58
-163            android:screenOrientation="portrait"
-163-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:140:13-49
-164            android:theme="@style/Theme.VasClient.Basic" />
-164-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:141:13-57
-165        <activity
-165-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:142:9-146:60
-166            android:name="com.example.vasclientv2.kiemlieu.kiemlieu.AddInfoKLActivity"
-166-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:143:13-64
-167            android:label="@string/add_info_kl_activity"
-167-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:144:13-57
-168            android:screenOrientation="portrait"
-168-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:145:13-49
-169            android:theme="@style/Theme.VasClient.Basic" />
-169-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:146:13-57
-170        <activity
-170-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:147:9-151:60
-171            android:name="com.example.vasclientv2.ui.login.LoginActivity"
-171-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:148:13-51
-172            android:label="@string/title_activity_login"
-172-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:149:13-57
-173            android:screenOrientation="portrait"
-173-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:150:13-49
-174            android:theme="@style/Theme.VasClient.Login" />
-174-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:151:13-57
-175        <activity
-175-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:152:9-160:20
-176            android:name="com.example.vasclientv2.splash.SplashScreenActivity"
-176-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:153:13-56
-177            android:theme="@style/SplashTheme" >
-177-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:154:13-47
-178            <intent-filter>
-178-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:155:13-159:29
-179                <action android:name="android.intent.action.MAIN" />
-179-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:17-69
-179-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:25-66
-180
-181                <category android:name="android.intent.category.LAUNCHER" />
-181-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:17-77
-181-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:27-74
-182            </intent-filter>
-183        </activity>
-184        <activity
-184-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:161:9-165:66
-185            android:name="com.example.vasclientv2.baove.BaoVeActivity"
-185-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:162:13-48
-186            android:label="@string/app_name"
-186-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:163:13-45
-187            android:screenOrientation="portrait"
-187-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:164:13-49
-188            android:theme="@style/Theme.VasClient.NoActionBar" />
-188-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:165:13-63
-189        <activity
-189-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:166:9-170:66
-190            android:name="com.example.vasclientv2.kiemlieu.KiemLieuActivity"
-190-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:167:13-54
-191            android:label="@string/app_name"
-191-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:168:13-45
-192            android:screenOrientation="portrait"
-192-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:169:13-49
-193            android:theme="@style/Theme.VasClient.NoActionBar" />
-193-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:170:13-63
-194
-195        <service
-195-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:172:9-178:19
-196            android:name="com.example.vasclientv2.message.MyFirebaseMessagingService"
-196-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:173:13-63
-197            android:exported="false" >
-197-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:174:13-37
-198            <intent-filter>
-198-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:175:13-177:29
-199                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-199-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:17-78
-199-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:25-75
-200            </intent-filter>
-201        </service>
-202
-203        <provider
-204            android:name="androidx.core.content.FileProvider"
-204-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:181:13-62
-205            android:authorities="com.example.vasclientv2.provider"
-205-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:182:13-60
-206            android:exported="false"
-206-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:183:13-37
-207            android:grantUriPermissions="true" >
-207-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:184:13-47
-208            <meta-data
-208-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:185:13-187:58
-209                android:name="android.support.FILE_PROVIDER_PATHS"
-209-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:186:17-67
-210                android:resource="@xml/provider_paths" />
-210-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:187:17-55
-211        </provider>
-212
-213        <service
-213-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:9:9-15:19
-214            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-214-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:10:13-91
-215            android:directBootAware="true"
-215-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
-216            android:exported="false" >
-216-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:11:13-37
-217            <meta-data
-217-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:12:13-14:85
-218                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
-218-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:13:17-114
-219                android:value="com.google.firebase.components.ComponentRegistrar" />
-219-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:14:17-82
-220            <meta-data
-220-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
-221                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-221-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
-222                android:value="com.google.firebase.components.ComponentRegistrar" />
-222-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
-223            <meta-data
-223-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
-224                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-224-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
-225                android:value="com.google.firebase.components.ComponentRegistrar" />
-225-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
-226        </service>
-227        <!--
-228             FirebaseMessagingService performs security checks at runtime,
-229             but set to not exported to explicitly avoid allowing another app to call it.
-230        -->
-231        <service
-231-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:28:9-35:19
-232            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-232-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:29:13-82
-233            android:directBootAware="true"
-233-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:30:13-43
-234            android:exported="false" >
-234-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
-235            <intent-filter android:priority="-500" >
-235-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:175:13-177:29
-236                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-236-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:17-78
-236-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:25-75
-237            </intent-filter>
-238        </service>
-239        <service
-239-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:36:9-42:19
-240            android:name="com.google.firebase.components.ComponentDiscoveryService"
-240-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:37:13-84
-241            android:directBootAware="true"
-241-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
-242            android:exported="false" >
-242-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:38:13-37
-243            <meta-data
-243-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:39:13-41:85
-244                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-244-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:40:17-119
-245                android:value="com.google.firebase.components.ComponentRegistrar" />
-245-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:41:17-82
-246            <meta-data
-246-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:32:13-34:85
-247                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-247-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:33:17-96
-248                android:value="com.google.firebase.components.ComponentRegistrar" />
-248-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:34:17-82
-249            <meta-data
-249-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
-250                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-250-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
-251                android:value="com.google.firebase.components.ComponentRegistrar" />
-251-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
-252            <meta-data
-252-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:32:13-34:85
-253                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
-253-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:33:17-117
-254                android:value="com.google.firebase.components.ComponentRegistrar" />
-254-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:34:17-82
-255            <meta-data
-255-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
-256                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
-256-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
-257                android:value="com.google.firebase.components.ComponentRegistrar" />
-257-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
-258            <meta-data
-258-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-259                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-259-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
-260                android:value="com.google.firebase.components.ComponentRegistrar" />
-260-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-261            <meta-data
-261-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
-262                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-262-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
-263                android:value="com.google.firebase.components.ComponentRegistrar" />
-263-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
-264        </service> <!-- Needs to be explicitly declared on P+ -->
-265        <uses-library
-265-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
-266            android:name="org.apache.http.legacy"
-266-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-267            android:required="false" />
-267-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
-268
-269        <provider
-269-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
-270            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-270-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
-271            android:authorities="com.example.vasclientv2.mlkitinitprovider"
-271-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
-272            android:exported="false"
-272-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
-273            android:initOrder="99" />
-273-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
-274
-275        <receiver
-275-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:37:9-44:20
-276            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-276-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:38:13-78
-277            android:exported="true"
-277-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:39:13-36
-278            android:permission="com.google.android.c2dm.permission.SEND" >
-278-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:40:13-73
-279            <intent-filter>
-279-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:41:13-43:29
-280                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-280-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:17-81
-280-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:25-78
-281            </intent-filter>
-282        </receiver>
-283
-284        <activity
-284-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-285            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-285-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-286            android:exported="false"
-286-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-287            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-287-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-288
-289        <receiver
-289-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
-290            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-290-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
-291            android:enabled="true"
-291-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
-292            android:exported="false" >
-292-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
-293        </receiver>
-294
-295        <service
-295-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
-296            android:name="com.google.android.gms.measurement.AppMeasurementService"
-296-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
-297            android:enabled="true"
-297-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
-298            android:exported="false" />
-298-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
-299        <service
-299-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
-300            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-300-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
-301            android:enabled="true"
-301-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
-302            android:exported="false"
-302-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
-303            android:permission="android.permission.BIND_JOB_SERVICE" />
-303-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
-304
-305        <provider
-305-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
-306            android:name="com.google.firebase.provider.FirebaseInitProvider"
-306-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
-307            android:authorities="com.example.vasclientv2.firebaseinitprovider"
-307-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
-308            android:directBootAware="true"
-308-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
-309            android:exported="false"
-309-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
-310            android:initOrder="100" />
-310-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
-311
-312        <meta-data
-312-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
-313            android:name="com.google.android.gms.version"
-313-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
-314            android:value="@integer/google_play_services_version" />
-314-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
-315
-316        <service
-316-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
-317            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-317-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
-318            android:exported="false" >
-318-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
-319            <meta-data
-319-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
-320                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-320-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
-321                android:value="cct" />
-321-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
-322        </service>
-323        <service
-323-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
-324            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-324-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
-325            android:exported="false"
-325-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
-326            android:permission="android.permission.BIND_JOB_SERVICE" >
-326-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
-327        </service>
-328
-329        <receiver
-329-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
-330            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-330-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
-331            android:exported="false" />
-331-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
-332    </application>
-333
-334</manifest>
+53        android:testOnly="true"
+54        android:theme="@style/Theme.VasClient"
+54-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:29:9-47
+55        android:usesCleartextTraffic="true" >
+55-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:30:9-44
+56
+57        <!--
+58             TODO: Before you run your application, you need a Google Maps API key.
+59
+60             To get one, follow the directions here:
+61
+62                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+63
+64             Once you have your API key (it starts with "AIza"), define a new property in your
+65             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+66             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+67        -->
+68        <meta-data
+68-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:44:9-46:44
+69            android:name="com.google.android.geo.API_KEY"
+69-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:45:13-58
+70            android:value="YOUR_API_KEY" />
+70-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:46:13-41
+71
+72        <activity
+72-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:48:9-52:60
+73            android:name="com.example.vasclientv2.truongkiemlieu.DestroyPhieuKLActivity"
+73-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:49:13-66
+74            android:exported="true"
+74-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:50:13-36
+75            android:label="@string/title_activity_destroy"
+75-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:51:13-59
+76            android:theme="@style/Theme.VasClient.Basic" />
+76-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:52:13-57
+77        <activity
+77-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:53:9-57:60
+78            android:name="com.example.vasclientv2.baove.tagmanager.reactivetag.ReactiveTagLostActivity"
+78-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:54:13-81
+79            android:label="@string/title_activity_reactiveTag"
+79-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:55:13-63
+80            android:screenOrientation="portrait"
+80-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:56:13-49
+81            android:theme="@style/Theme.VasClient.Basic" />
+81-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:57:13-57
+82        <activity android:name="com.example.vasclientv2.baove.vehiclein.newvehicle.AddNewVehicleActivity" />
+82-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:9-86
+82-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:58:19-83
+83        <activity
+83-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:59:9-63:60
+84            android:name="com.example.vasclientv2.baove.tagmanager.taginfo.ScanTagActivity"
+84-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:60:13-69
+85            android:label="@string/title_activity_scanTag"
+85-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:61:13-59
+86            android:screenOrientation="portrait"
+86-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:62:13-49
+87            android:theme="@style/Theme.VasClient.Basic" />
+87-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:63:13-57
+88        <activity
+88-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:64:9-68:60
+89            android:name="com.example.vasclientv2.baove.tagmanager.taginfo.TagInfoActivity"
+89-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:65:13-69
+90            android:label="@string/title_activity_tagInfo"
+90-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:66:13-59
+91            android:screenOrientation="portrait"
+91-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:67:13-49
+92            android:theme="@style/Theme.VasClient.Basic" />
+92-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:68:13-57
+93        <activity
+93-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:69:9-73:60
+94            android:name="com.example.vasclientv2.baove.tagmanager.losttag.LostTagActivity"
+94-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:70:13-69
+95            android:label="@string/title_activity_lostTag"
+95-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:71:13-59
+96            android:screenOrientation="portrait"
+96-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:72:13-49
+97            android:theme="@style/Theme.VasClient.Basic" />
+97-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:73:13-57
+98
+99        <meta-data
+99-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:75:9-77:35
+100            android:name="com.google.mlkit.vision.DEPENDENCIES"
+100-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:76:13-64
+101            android:value="ocr" />
+101-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:77:13-32
+102        <meta-data
+102-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:78:9-80:71
+103            android:name="com.google.firebase.messaging.default_notification_channel_id"
+103-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:79:13-89
+104            android:value="@string/default_notification_channel_id" />
+104-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:80:13-68
+105        <meta-data
+105-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:81:9-83:37
+106            android:name="firebase_messaging_auto_init_enabled"
+106-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:82:13-64
+107            android:value="false" />
+107-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:83:13-34
+108        <meta-data
+108-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:84:9-86:37
+109            android:name="firebase_analytics_collection_enabled"
+109-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:85:13-65
+110            android:value="false" />
+110-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:86:13-34
+111
+112        <activity
+112-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:88:9-92:60
+113            android:name="com.example.vasclientv2.admin.adminsetting.AdminSettingActivity"
+113-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:89:13-68
+114            android:label="@string/title_activity_settings"
+114-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:90:13-60
+115            android:screenOrientation="portrait"
+115-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:91:13-49
+116            android:theme="@style/Theme.VasClient.Basic" />
+116-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:92:13-57
+117        <activity
+117-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:93:9-97:60
+118            android:name="com.example.vasclientv2.admin.createuser.CreateUserActivity"
+118-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:94:13-64
+119            android:label="@string/title_activity_create_user"
+119-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:95:13-63
+120            android:screenOrientation="portrait"
+120-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:96:13-49
+121            android:theme="@style/Theme.VasClient.Basic" />
+121-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:97:13-57
+122        <activity
+122-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:98:9-102:60
+123            android:name="com.example.vasclientv2.admin.resetpass.ResetPassUserActivity"
+123-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:99:13-66
+124            android:label="@string/title_activity_reset_password"
+124-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:100:13-66
+125            android:screenOrientation="portrait"
+125-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:101:13-49
+126            android:theme="@style/Theme.VasClient.Basic" />
+126-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:102:13-57
+127        <activity
+127-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:103:9-107:60
+128            android:name="com.example.vasclientv2.admin.AdminActivity"
+128-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:104:13-48
+129            android:label="@string/title_activity_admin_dashdoard"
+129-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:105:13-67
+130            android:screenOrientation="portrait"
+130-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:106:13-49
+131            android:theme="@style/Theme.VasClient.Basic" />
+131-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:107:13-57
+132        <activity
+132-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:108:9-112:60
+133            android:name="com.example.vasclientv2.setting.SettingsActivity"
+133-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:109:13-53
+134            android:label="@string/title_activity_settings"
+134-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:110:13-60
+135            android:screenOrientation="portrait"
+135-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:111:13-49
+136            android:theme="@style/Theme.VasClient.Basic" />
+136-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:112:13-57
+137        <activity
+137-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:113:9-117:60
+138            android:name="com.example.vasclientv2.userconfig.ChangePasswordActivity"
+138-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:114:13-62
+139            android:label="@string/change_password"
+139-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:115:13-52
+140            android:screenOrientation="portrait"
+140-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:116:13-49
+141            android:theme="@style/Theme.VasClient.Basic" />
+141-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:117:13-57
+142        <activity
+142-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:118:9-122:60
+143            android:name="com.example.vasclientv2.baove.vehiclein.ScanBsxActivity"
+143-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:119:13-60
+144            android:label="@string/scan_bsx"
+144-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:120:13-45
+145            android:screenOrientation="portrait"
+145-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:121:13-49
+146            android:theme="@style/Theme.VasClient.Basic" />
+146-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:122:13-57
+147        <activity
+147-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:123:9-126:60
+148            android:name="com.example.vasclientv2.truongkiemlieu.TruongKiemLieuConfirmActivity"
+148-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:124:13-73
+149            android:label="@string/duyet_kl"
+149-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:125:13-45
+150            android:theme="@style/Theme.VasClient.Basic" />
+150-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:126:13-57
+151        <activity
+151-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:127:9-131:66
+152            android:name="com.example.vasclientv2.truongkiemlieu.TruongKiemLieuActivity"
+152-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:128:13-66
+153            android:label="@string/app_name"
+153-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:129:13-45
+154            android:screenOrientation="portrait"
+154-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:130:13-49
+155            android:theme="@style/Theme.VasClient.NoActionBar" />
+155-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:131:13-63
+156        <activity
+156-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:132:9-136:60
+157            android:name="com.example.vasclientv2.baove.vehiclein.AddCheckingScrapActivity"
+157-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:133:13-69
+158            android:label="@string/add_checking_scrap_activity"
+158-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:134:13-64
+159            android:screenOrientation="portrait"
+159-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:135:13-49
+160            android:theme="@style/Theme.VasClient.Basic" />
+160-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:136:13-57
+161        <activity
+161-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:137:9-141:60
+162            android:name="com.example.vasclientv2.baove.vehiclein.SaveVehicleActivity"
+162-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:138:13-64
+163            android:label="@string/save_vehicle_activity"
+163-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:139:13-58
+164            android:screenOrientation="portrait"
+164-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:140:13-49
+165            android:theme="@style/Theme.VasClient.Basic" />
+165-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:141:13-57
+166        <activity
+166-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:142:9-146:60
+167            android:name="com.example.vasclientv2.kiemlieu.kiemlieu.AddInfoKLActivity"
+167-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:143:13-64
+168            android:label="@string/add_info_kl_activity"
+168-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:144:13-57
+169            android:screenOrientation="portrait"
+169-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:145:13-49
+170            android:theme="@style/Theme.VasClient.Basic" />
+170-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:146:13-57
+171        <activity
+171-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:147:9-151:60
+172            android:name="com.example.vasclientv2.ui.login.LoginActivity"
+172-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:148:13-51
+173            android:label="@string/title_activity_login"
+173-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:149:13-57
+174            android:screenOrientation="portrait"
+174-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:150:13-49
+175            android:theme="@style/Theme.VasClient.Login" />
+175-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:151:13-57
+176        <activity
+176-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:152:9-160:20
+177            android:name="com.example.vasclientv2.splash.SplashScreenActivity"
+177-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:153:13-56
+178            android:theme="@style/SplashTheme" >
+178-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:154:13-47
+179            <intent-filter>
+179-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:155:13-159:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:17-69
+180-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:156:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:17-77
+182-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:158:27-74
+183            </intent-filter>
+184        </activity>
+185        <activity
+185-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:161:9-165:66
+186            android:name="com.example.vasclientv2.baove.BaoVeActivity"
+186-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:162:13-48
+187            android:label="@string/app_name"
+187-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:163:13-45
+188            android:screenOrientation="portrait"
+188-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:164:13-49
+189            android:theme="@style/Theme.VasClient.NoActionBar" />
+189-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:165:13-63
+190        <activity
+190-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:166:9-170:66
+191            android:name="com.example.vasclientv2.kiemlieu.KiemLieuActivity"
+191-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:167:13-54
+192            android:label="@string/app_name"
+192-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:168:13-45
+193            android:screenOrientation="portrait"
+193-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:169:13-49
+194            android:theme="@style/Theme.VasClient.NoActionBar" />
+194-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:170:13-63
+195
+196        <service
+196-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:172:9-178:19
+197            android:name="com.example.vasclientv2.message.MyFirebaseMessagingService"
+197-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:173:13-63
+198            android:exported="false" >
+198-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:174:13-37
+199            <intent-filter>
+199-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:175:13-177:29
+200                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+200-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:17-78
+200-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:25-75
+201            </intent-filter>
+202        </service>
+203
+204        <provider
+205            android:name="androidx.core.content.FileProvider"
+205-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:181:13-62
+206            android:authorities="com.example.vasclientv2.provider"
+206-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:182:13-60
+207            android:exported="false"
+207-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:183:13-37
+208            android:grantUriPermissions="true" >
+208-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:184:13-47
+209            <meta-data
+209-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:185:13-187:58
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:186:17-67
+211                android:resource="@xml/provider_paths" />
+211-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:187:17-55
+212        </provider>
+213
+214        <service
+214-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:9:9-15:19
+215            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+215-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:10:13-91
+216            android:directBootAware="true"
+216-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+217            android:exported="false" >
+217-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:11:13-37
+218            <meta-data
+218-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:12:13-14:85
+219                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+219-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:13:17-114
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\phatn\.gradle\caches\transforms-3\43f2aec8934131da3a8c40ded32556aa\transformed\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:14:17-82
+221            <meta-data
+221-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+222                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+222-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.mlkit:vision-common:16.1.0] C:\Users\phatn\.gradle\caches\transforms-3\cc7df860f70438313ed3cc0fc3eba4ee\transformed\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+224            <meta-data
+224-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+225                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+225-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+227        </service>
+228        <!--
+229             FirebaseMessagingService performs security checks at runtime,
+230             but set to not exported to explicitly avoid allowing another app to call it.
+231        -->
+232        <service
+232-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:28:9-35:19
+233            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+233-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:29:13-82
+234            android:directBootAware="true"
+234-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:30:13-43
+235            android:exported="false" >
+235-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
+236            <intent-filter android:priority="-500" >
+236-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:175:13-177:29
+237                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+237-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:17-78
+237-->E:\VasClient\vas_clientv2\app\src\main\AndroidManifest.xml:176:25-75
+238            </intent-filter>
+239        </service>
+240        <service
+240-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:36:9-42:19
+241            android:name="com.google.firebase.components.ComponentDiscoveryService"
+241-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:37:13-84
+242            android:directBootAware="true"
+242-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+243            android:exported="false" >
+243-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:38:13-37
+244            <meta-data
+244-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:39:13-41:85
+245                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+245-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:40:17-119
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\048646a6dac588e762faddab716833bc\transformed\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:41:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:32:13-34:85
+248                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+248-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:33:17-96
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:34:17-82
+250            <meta-data
+250-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+251                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+251-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+252                android:value="com.google.firebase.components.ComponentRegistrar" />
+252-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\7f8edbcac1ac9bb79d6ac6b9d9b9b121\transformed\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+253            <meta-data
+253-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:32:13-34:85
+254                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+254-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:33:17-117
+255                android:value="com.google.firebase.components.ComponentRegistrar" />
+255-->[com.google.firebase:firebase-config:20.0.1] C:\Users\phatn\.gradle\caches\transforms-3\38f95dbf3fe1e50a7840914609ee1093\transformed\jetified-firebase-config-20.0.1\AndroidManifest.xml:34:17-82
+256            <meta-data
+256-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
+257                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+257-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
+258                android:value="com.google.firebase.components.ComponentRegistrar" />
+258-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\phatn\.gradle\caches\transforms-3\4bbd498bb99f8947a62ae4bf535cfb97\transformed\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
+259            <meta-data
+259-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+260                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+260-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+261                android:value="com.google.firebase.components.ComponentRegistrar" />
+261-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\phatn\.gradle\caches\transforms-3\5d0133452f894b939e58875e6236463c\transformed\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+262            <meta-data
+262-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+263                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+263-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+264                android:value="com.google.firebase.components.ComponentRegistrar" />
+264-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\phatn\.gradle\caches\transforms-3\ca8fc42c3f44c7ac41ef0715a8aa0507\transformed\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+265        </service> <!-- Needs to be explicitly declared on P+ -->
+266        <uses-library
+266-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+267            android:name="org.apache.http.legacy"
+267-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+268            android:required="false" />
+268-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\phatn\.gradle\caches\transforms-3\01e395759a9b25072140b613d83c151a\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+269
+270        <provider
+270-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+271            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+271-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+272            android:authorities="com.example.vasclientv2.mlkitinitprovider"
+272-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+273            android:exported="false"
+273-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+274            android:initOrder="99" />
+274-->[com.google.mlkit:common:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\564f8dd00a7b355c4fb5ac8403344a25\transformed\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+275
+276        <receiver
+276-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:37:9-44:20
+277            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+277-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:38:13-78
+278            android:exported="true"
+278-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:39:13-36
+279            android:permission="com.google.android.c2dm.permission.SEND" >
+279-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:40:13-73
+280            <intent-filter>
+280-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:41:13-43:29
+281                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+281-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:17-81
+281-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\phatn\.gradle\caches\transforms-3\70b29f818412d42aa6cb3a1dbb1171d1\transformed\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:25-78
+282            </intent-filter>
+283        </receiver>
+284
+285        <activity
+285-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+286            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+286-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+287            android:exported="false"
+287-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+288            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+288-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\phatn\.gradle\caches\transforms-3\1c26cd138e11bafe0ef3ded96a3d35a5\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+289
+290        <receiver
+290-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+291            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+291-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+292            android:enabled="true"
+292-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+293            android:exported="false" >
+293-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+294        </receiver>
+295
+296        <service
+296-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+297            android:name="com.google.android.gms.measurement.AppMeasurementService"
+297-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+298            android:enabled="true"
+298-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+299            android:exported="false" />
+299-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+300        <service
+300-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+301            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+301-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+302            android:enabled="true"
+302-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+304            android:permission="android.permission.BIND_JOB_SERVICE" />
+304-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\phatn\.gradle\caches\transforms-3\823a66e82c201e0044f00950ad8ff6e5\transformed\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+305
+306        <provider
+306-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+307            android:name="com.google.firebase.provider.FirebaseInitProvider"
+307-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+308            android:authorities="com.example.vasclientv2.firebaseinitprovider"
+308-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+309            android:directBootAware="true"
+309-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+310            android:exported="false"
+310-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+311            android:initOrder="100" />
+311-->[com.google.firebase:firebase-common:19.4.0] C:\Users\phatn\.gradle\caches\transforms-3\04e395695e1bf83a9e798e2f12b531f9\transformed\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+312
+313        <meta-data
+313-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+314            android:name="com.google.android.gms.version"
+314-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+315            android:value="@integer/google_play_services_version" />
+315-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\phatn\.gradle\caches\transforms-3\06f3ba8093acddbd0a5d3486bb1fa57e\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+316
+317        <service
+317-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+318            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+318-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+319            android:exported="false" >
+319-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+320            <meta-data
+320-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+321                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+321-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+322                android:value="cct" />
+322-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\2af55ab444524c885e7ebc45f9fc6932\transformed\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+323        </service>
+324        <service
+324-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+325            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+325-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+326            android:exported="false"
+326-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+327            android:permission="android.permission.BIND_JOB_SERVICE" >
+327-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+328        </service>
+329
+330        <receiver
+330-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+331            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+331-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+332            android:exported="false" />
+332-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\phatn\.gradle\caches\transforms-3\1ea787879d7bab573cb47ae82bf641b3\transformed\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+333    </application>
+334
+335</manifest>

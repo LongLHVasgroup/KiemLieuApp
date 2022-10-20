@@ -3,6 +3,7 @@ package com.example.vasclientv2.baove.vehiclewait;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
+import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -56,7 +58,7 @@ public class VehicleWaitFragment extends Fragment implements CheckingScrapAdapte
     private ApiInterface apiInterface;
     private Call<ListResponeMessage<CheckingScrapModel>> call3;
     private Call<ListResponeMessage<GateModel>> callGate;
-
+    private AlertDialog dialogShowNote;
     private ProgressBar progressBar;
     private Spinner spnSelectGate;
 
@@ -111,6 +113,8 @@ public class VehicleWaitFragment extends Fragment implements CheckingScrapAdapte
 //                list = sortVehicle(checkingScrapModels);
 
                 list = checkingScrapModels;
+
+
                 adapter.setList(list);
                 recyclerView.setAdapter(adapter);
             }
@@ -155,9 +159,19 @@ public class VehicleWaitFragment extends Fragment implements CheckingScrapAdapte
         });
     }
 
+    //Lê Hoàng Long
+    //Hiển thị note của bảo vệ
     @Override
     public void onItemClick(int position) {
-
+        CheckingScrapModel checkingScrapModel = list.get(position);
+        //checkingScrapModel.getNote1().toString()
+        new AlertDialog.Builder(getContext())
+                .setMessage(Html.fromHtml("<h2> + "+ checkingScrapModel.getVehicleNumber() +"</h2></br>\n" +
+                        "<h2> + "+ checkingScrapModel.getDriverName() +"</h2></br>" +
+                        "<h1>"+checkingScrapModel.getNote1().toString()+"</h1>"))
+                .setPositiveButton("OK", (dialog,which) ->{
+                })
+                .create().show();
     }
 
     /**

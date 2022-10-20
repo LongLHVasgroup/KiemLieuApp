@@ -505,7 +505,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private boolean UpdateApp(){
         try {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/LongLHVasgroup/KiemLieuApp/raw/master/app/build/outputs/apk/debug/app-debug.apk")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://192.168.100.4/VAS.APP.STORE/Tools/KiemLieuApp/app-debug%20.apk")));
             return true;
         }catch (Exception ex){
             Toast.makeText(getApplicationContext(), "Đã xảy ra lỗi!", Toast.LENGTH_LONG).show();

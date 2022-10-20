@@ -11,12 +11,8 @@ com/example/vasclientv2/adapter/ScaleTicketPODetailPageAdapter.java
  com.example.vasclientv2.adapter.ScaleTicketPODetailPageAdapter$5
  com.example.vasclientv2.adapter.ScaleTicketPODetailPageAdapter$OnItemClickListener
  com.example.vasclientv2.adapter.ScaleTicketPODetailPageAdapter$ViewHolder
-com/example/vasclientv2/kiemlieu/KiemLieuActivity.java
- com.example.vasclientv2.kiemlieu.KiemLieuActivity
- com.example.vasclientv2.kiemlieu.KiemLieuActivity$1
- com.example.vasclientv2.kiemlieu.KiemLieuActivity$2
- com.example.vasclientv2.kiemlieu.KiemLieuActivity$3
- com.example.vasclientv2.kiemlieu.KiemLieuActivity$4
+com/example/vasclientv2/kiemlieu/kiemlieu/FcmResponse.java
+ com.example.vasclientv2.kiemlieu.kiemlieu.FcmResponse
 com/example/vasclientv2/ui/login/UpdatePassViewModel.java
  com.example.vasclientv2.ui.login.UpdatePassViewModel
  com.example.vasclientv2.ui.login.UpdatePassViewModel$1
@@ -56,20 +52,18 @@ com/example/vasclientv2/model/entities/VehicleModel.java
  com.example.vasclientv2.model.entities.VehicleModel
 com/example/vasclientv2/kiemlieu/kiemlieu/AddInfoKLViewModel.java
  com.example.vasclientv2.kiemlieu.kiemlieu.AddInfoKLViewModel
-com/example/vasclientv2/admin/AdminActivity.java
- com.example.vasclientv2.admin.AdminActivity
+com/example/vasclientv2/truongkiemlieu/phieucanchuakl/PhieuCanChuaKLFragment.java
+ com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment
+ com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment$1
+ com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment$2
 com/example/vasclientv2/data/model/LoggedInUser.java
  com.example.vasclientv2.data.model.LoggedInUser
 com/example/vasclientv2/model/entities/VehicleOwnerModel.java
  com.example.vasclientv2.model.entities.VehicleOwnerModel
 com/example/vasclientv2/model/entities/TagInfoModel.java
  com.example.vasclientv2.model.entities.TagInfoModel
-com/example/vasclientv2/baove/vehiclewait/VehicleWaitFragment.java
- com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment
- com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$1
- com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$2
- com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$3
- com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$4
+com/example/vasclientv2/truongkiemlieu/phieucanchuakl/PhieuCanChuaKLViewModel.java
+ com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLViewModel
 com/example/vasclientv2/model/entities/BargeModel.java
  com.example.vasclientv2.model.entities.BargeModel
 com/example/vasclientv2/model/common/ListResponeMessage.java
@@ -78,8 +72,8 @@ com/example/vasclientv2/model/entities/ScaleTicketPODetailModel.java
  com.example.vasclientv2.model.entities.ScaleTicketPODetailModel
 com/example/vasclientv2/ui/login/LoginViewModelFactory.java
  com.example.vasclientv2.ui.login.LoginViewModelFactory
-com/example/vasclientv2/truongkiemlieu/TruongKiemLieuActivity.java
- com.example.vasclientv2.truongkiemlieu.TruongKiemLieuActivity
+com/example/vasclientv2/kiemlieu/kiemlieu/TempProductForTicket.java
+ com.example.vasclientv2.kiemlieu.kiemlieu.TempProductForTicket
 com/example/vasclientv2/baove/vehiclein/SaveVehicleActivity.java
  com.example.vasclientv2.baove.vehiclein.SaveVehicleActivity
  com.example.vasclientv2.baove.vehiclein.SaveVehicleActivity$1
@@ -154,8 +148,8 @@ com/example/vasclientv2/kiemlieu/kiemlieu/AddInfoKLActivity.java
  com.example.vasclientv2.kiemlieu.kiemlieu.AddInfoKLActivity$9
 com/example/vasclientv2/baove/vehiclein/newvehicle/AddNewVehicleActivity.java
  com.example.vasclientv2.baove.vehiclein.newvehicle.AddNewVehicleActivity
-com/example/vasclientv2/splash/SplashScreenActivity.java
- com.example.vasclientv2.splash.SplashScreenActivity
+com/example/vasclientv2/apiInterface/ApiInterface.java
+ com.example.vasclientv2.apiInterface.ApiInterface
 com/example/vasclientv2/model/entities/WeightScaleModel.java
  com.example.vasclientv2.model.entities.WeightScaleModel
 com/example/vasclientv2/baove/vehiclelosttag/VehicleLostTagFragment.java
@@ -169,14 +163,11 @@ com/example/vasclientv2/userconfig/ChangePasswordActivity.java
  com.example.vasclientv2.userconfig.ChangePasswordActivity$2
  com.example.vasclientv2.userconfig.ChangePasswordActivity$3
  com.example.vasclientv2.userconfig.ChangePasswordActivity$4
-com/example/vasclientv2/baove/BaoVeActivity.java
- com.example.vasclientv2.baove.BaoVeActivity
- com.example.vasclientv2.baove.BaoVeActivity$1
- com.example.vasclientv2.baove.BaoVeActivity$2
- com.example.vasclientv2.baove.BaoVeActivity$3
- com.example.vasclientv2.baove.BaoVeActivity$4
- com.example.vasclientv2.baove.BaoVeActivity$5
- com.example.vasclientv2.baove.BaoVeActivity$6
+com/example/vasclientv2/data/Result.java
+ com.example.vasclientv2.data.Result
+ com.example.vasclientv2.data.Result$1
+ com.example.vasclientv2.data.Result$Error
+ com.example.vasclientv2.data.Result$Success
 com/example/vasclientv2/baove/vehicleout/VehicleOutViewModel.java
  com.example.vasclientv2.baove.vehicleout.VehicleOutViewModel
 com/example/vasclientv2/adapter/HistoryAdapter.java
@@ -203,21 +194,12 @@ com/example/vasclientv2/truongkiemlieu/DestroyPhieuKLActivity.java
 com/example/vasclientv2/userconfig/ChangePasswordViewModel.java
  com.example.vasclientv2.userconfig.ChangePasswordViewModel
  com.example.vasclientv2.userconfig.ChangePasswordViewModel$1
-com/example/vasclientv2/ui/login/LoginActivity.java
- com.example.vasclientv2.ui.login.LoginActivity
- com.example.vasclientv2.ui.login.LoginActivity$1
- com.example.vasclientv2.ui.login.LoginActivity$10
- com.example.vasclientv2.ui.login.LoginActivity$11
- com.example.vasclientv2.ui.login.LoginActivity$12
- com.example.vasclientv2.ui.login.LoginActivity$13
- com.example.vasclientv2.ui.login.LoginActivity$2
- com.example.vasclientv2.ui.login.LoginActivity$3
- com.example.vasclientv2.ui.login.LoginActivity$4
- com.example.vasclientv2.ui.login.LoginActivity$5
- com.example.vasclientv2.ui.login.LoginActivity$6
- com.example.vasclientv2.ui.login.LoginActivity$7
- com.example.vasclientv2.ui.login.LoginActivity$8
- com.example.vasclientv2.ui.login.LoginActivity$9
+com/example/vasclientv2/baove/vehiclewait/VehicleWaitFragment.java
+ com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment
+ com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$1
+ com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$2
+ com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$3
+ com.example.vasclientv2.baove.vehiclewait.VehicleWaitFragment$4
 com/example/vasclientv2/admin/resetpass/ResetPassUserActivity.java
  com.example.vasclientv2.admin.resetpass.ResetPassUserActivity
  com.example.vasclientv2.admin.resetpass.ResetPassUserActivity$1
@@ -329,20 +311,38 @@ com/example/vasclientv2/baove/vehiclelosttag/VehicleLostTagViewModel.java
  com.example.vasclientv2.baove.vehiclelosttag.VehicleLostTagViewModel$1
  com.example.vasclientv2.baove.vehiclelosttag.VehicleLostTagViewModel$2
  com.example.vasclientv2.baove.vehiclelosttag.VehicleLostTagViewModel$3
-com/example/vasclientv2/truongkiemlieu/phieucanchuakl/PhieuCanChuaKLFragment.java
- com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment
- com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment$1
- com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLFragment$2
-com/example/vasclientv2/kiemlieu/kiemlieu/FcmResponse.java
- com.example.vasclientv2.kiemlieu.kiemlieu.FcmResponse
-com/example/vasclientv2/data/Result.java
- com.example.vasclientv2.data.Result
- com.example.vasclientv2.data.Result$1
- com.example.vasclientv2.data.Result$Error
- com.example.vasclientv2.data.Result$Success
-com/example/vasclientv2/kiemlieu/kiemlieu/TempProductForTicket.java
- com.example.vasclientv2.kiemlieu.kiemlieu.TempProductForTicket
-com/example/vasclientv2/apiInterface/ApiInterface.java
- com.example.vasclientv2.apiInterface.ApiInterface
-com/example/vasclientv2/truongkiemlieu/phieucanchuakl/PhieuCanChuaKLViewModel.java
- com.example.vasclientv2.truongkiemlieu.phieucanchuakl.PhieuCanChuaKLViewModel
+com/example/vasclientv2/ui/login/LoginActivity.java
+ com.example.vasclientv2.ui.login.LoginActivity
+ com.example.vasclientv2.ui.login.LoginActivity$1
+ com.example.vasclientv2.ui.login.LoginActivity$10
+ com.example.vasclientv2.ui.login.LoginActivity$11
+ com.example.vasclientv2.ui.login.LoginActivity$12
+ com.example.vasclientv2.ui.login.LoginActivity$13
+ com.example.vasclientv2.ui.login.LoginActivity$2
+ com.example.vasclientv2.ui.login.LoginActivity$3
+ com.example.vasclientv2.ui.login.LoginActivity$4
+ com.example.vasclientv2.ui.login.LoginActivity$5
+ com.example.vasclientv2.ui.login.LoginActivity$6
+ com.example.vasclientv2.ui.login.LoginActivity$7
+ com.example.vasclientv2.ui.login.LoginActivity$8
+ com.example.vasclientv2.ui.login.LoginActivity$9
+com/example/vasclientv2/splash/SplashScreenActivity.java
+ com.example.vasclientv2.splash.SplashScreenActivity
+com/example/vasclientv2/truongkiemlieu/TruongKiemLieuActivity.java
+ com.example.vasclientv2.truongkiemlieu.TruongKiemLieuActivity
+com/example/vasclientv2/baove/BaoVeActivity.java
+ com.example.vasclientv2.baove.BaoVeActivity
+ com.example.vasclientv2.baove.BaoVeActivity$1
+ com.example.vasclientv2.baove.BaoVeActivity$2
+ com.example.vasclientv2.baove.BaoVeActivity$3
+ com.example.vasclientv2.baove.BaoVeActivity$4
+ com.example.vasclientv2.baove.BaoVeActivity$5
+ com.example.vasclientv2.baove.BaoVeActivity$6
+com/example/vasclientv2/kiemlieu/KiemLieuActivity.java
+ com.example.vasclientv2.kiemlieu.KiemLieuActivity
+ com.example.vasclientv2.kiemlieu.KiemLieuActivity$1
+ com.example.vasclientv2.kiemlieu.KiemLieuActivity$2
+ com.example.vasclientv2.kiemlieu.KiemLieuActivity$3
+ com.example.vasclientv2.kiemlieu.KiemLieuActivity$4
+com/example/vasclientv2/admin/AdminActivity.java
+ com.example.vasclientv2.admin.AdminActivity
